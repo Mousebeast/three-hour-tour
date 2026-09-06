@@ -43,7 +43,10 @@ You also get a dog.
 
 ## Installing it
 
-Import the release zip with the CurseForge or Prism launcher. It resolves the
+**[Three Hour Tour on CurseForge](https://www.curseforge.com/minecraft/modpacks/three-hour-tour)** — install it from the CurseForge app
+and everything below is handled for you.
+
+Failing that, import the release zip with the CurseForge or Prism launcher. It resolves the
 mod list, and the pack's own companion mod rides along inside it — there is
 nothing to place by hand.
 
