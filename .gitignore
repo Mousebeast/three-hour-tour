@@ -1,0 +1,17 @@
+# Mod jars and built packs are never committed. The manifest names the mods and
+# your launcher fetches them.
+*.jar
+*.zip
+*.mrpack
+!companion/gradle/wrapper/gradle-wrapper.jar
+
+# Build output
+build/
+pack/build/
+companion/build/
+companion/.gradle/
+companion/run/
+
+__pycache__/
+*.log
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "ingredient": {
+    "item": "threehourtour:core_foundry"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:pack_foundry"
+    }
+  ],
+  "sequence": [
+    {
+      "ingredients": [
+        {
+          "item": "threehourtour:core_foundry"
+        }
+      ],
+      "results": [
+        {
+          "id": "threehourtour:core_foundry"
+        }
+      ],
+      "type": "create:pressing"
+    }
+  ],
+  "transitional_item": {
+    "id": "threehourtour:core_foundry"
+  },
+  "type": "create:sequenced_assembly"
+}

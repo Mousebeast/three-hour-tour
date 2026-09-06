@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Drilling Rig I",
+  "items": [
+    "createoreexcavation:drill",
+    "createoreexcavation:drilling_machine"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

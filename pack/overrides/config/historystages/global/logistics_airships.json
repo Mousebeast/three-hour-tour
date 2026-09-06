@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Automated Air Freight",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "create_aeronautics_automated_logistics"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

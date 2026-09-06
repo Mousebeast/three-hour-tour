@@ -1,0 +1,3135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_quest_size: 1.5d
+	filename: "research"
+	group: ""
+	title: "Research Tree"
+	id: "36306B9DBDAC6941"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+	{
+		id: "2D81074A78B02859"
+		title: "The Bestiary"
+		subtitle: "§6Combat §7— §a47 §fAbyssal §7· §a30 §fFarm §7· §a260 §fFoundry §7· §a150 §fHusbandry §7· §a90 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:iron_sword" }
+		x: 45.0d
+		y: -7.159d
+		description: [
+			"Cataclysm's roster: leviathans, Scylla, and the rest"
+			"of what the deep has been hiding."
+			""
+			"§7Also grants: §a1 §rCombat skill point"
+		]
+		dependencies: ["64425031E55CA89C", "6991DF007A6B8682"]
+		tasks: [
+			{
+				id: "0A78B993C8CDED15"
+				count: 47L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3F475C7C36F3DEC3"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "7D0ADF9DB23B6230"
+				count: 260L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "1246DEFFA374EA79"
+				count: 150L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "452A49C56DEFEFE5"
+				count: 90L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "191E5937CD3E4492"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_alpha" }
+				type: "item"
+			}
+			{
+				id: "00BF317B50F77DC0"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_delta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "5CAB94AC6736F89E"
+				stage: "combat_bestiary"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "73B01071CB1EBA3B"
+				command: "/puffish_skills points add @p combat 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "43F1F9A50E2488C3"
+		title: "Light Cannons"
+		subtitle: "§6Combat §7— §a80 §fFoundry §7· §a45 §fTrawl§r"
+		icon: { count: 1, id: "createbigcannons:bronze_cannon_barrel" }
+		x: 30.0d
+		y: -2.881d
+		description: [
+			"Bronze and cast iron barrels, a carriage and a"
+			"loader. Your ship acquires an opinion."
+		]
+		dependencies: ["3007E3F9A23FECEF"]
+		tasks: [
+			{
+				id: "2C531E4DC4929CC0"
+				count: 80L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "0C6CC26269C0A045"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "31BDBC741A0CF1DF"
+				stage: "combat_cannons1"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "64425031E55CA89C"
+		title: "Heavy Ordnance"
+		subtitle: "§6Combat §7— §a18 §fAbyssal §7· §a100 §fFoundry §7· §a60 §fHusbandry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "createbigcannons:built_up_nethersteel_cannon_barrel" }
+		x: 40.0d
+		y: -5.499d
+		description: [
+			"Steel and nethersteel barrels, built up for the"
+			"range and the recoil that comes with it."
+			""
+			"§7Also grants: §a1 §rCombat skill point"
+		]
+		dependencies: ["43F1F9A50E2488C3", "57544ABC5F82B18A"]
+		tasks: [
+			{
+				id: "3272CF8EE5A45182"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "5CFB53A0307F4B9D"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "78E60ACE8722B79D"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "77E376427914934B"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0CF0171144CC3724"
+				stage: "combat_cannons2"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "6C579630765135BC"
+				command: "/puffish_skills points add @p combat 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "7AE221F0B8398643"
+		title: "Apothic Enchanting"
+		subtitle: "§6Combat §7— §a30 §fFoundry §7· §a18 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:iron_sword" }
+		x: 10.0d
+		y: -7.501d
+		description: [
+			"The enchanting overhaul — eterna, quanta and arcana,"
+			"and a table worth building a room around."
+		]
+		dependencies: ["0266D4FF44DF3D38"]
+		tasks: [
+			{
+				id: "5024A621F325E25A"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "03A3F9D713DF9A99"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "17AA039AE0865B76"
+				stage: "combat_enchanting"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "6991DF007A6B8682"
+		title: "Gem Cutting and Sigils"
+		subtitle: "§6Combat §7— §a60 §fFoundry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "apotheosis:gem_cutting_table" }
+		x: 25.0d
+		y: -8.967d
+		description: [
+			"Cut gems, socket them, and the sigils that let you"
+			"change your mind afterwards."
+		]
+		dependencies: ["2568A1087653531C"]
+		tasks: [
+			{
+				id: "353AE6A2DDB5AB59"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "36E6CF65BFAD4D50"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "531A57423DB5E3D6"
+				stage: "combat_gems"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "41C57D1709F91A11"
+		title: "Neural Models"
+		subtitle: "§6Combat §7— §a85 §fFoundry §7· §a50 §fTrawl§r"
+		icon: { count: 1, id: "hostilenetworks:blank_data_model" }
+		x: 35.0d
+		y: 5.29d
+		description: [
+			"Data models and a deep learner. Kill a thing often"
+			"enough and the machine learns what it was."
+		]
+		dependencies: ["1AB008DF5B11BB51"]
+		tasks: [
+			{
+				id: "09B0C7489516474A"
+				count: 85L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "235601278C3FAE75"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "74F3BFF9CD97EEF5"
+				stage: "combat_hnn1"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "286C7D3AA60769D3"
+		title: "Simulation Chamber"
+		subtitle: "§6Combat §7— §a19 §fAbyssal §7· §a110 §fFoundry §7· §a65 §fHusbandry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "hostilenetworks:end_prediction" }
+		x: 40.0d
+		y: -2.899d
+		description: [
+			"A simulation chamber and a loot fabricator. The mob"
+			"you studied now drops without turning up."
+		]
+		dependencies: ["41C57D1709F91A11", "4B4297511DE6FA1C", "4880B039CB204ADB"]
+		tasks: [
+			{
+				id: "74F00A6C1998D510"
+				count: 19L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3456011C97B19D47"
+				count: 110L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "24FDDF31E34ECDBD"
+				count: 65L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "65FB6F6128A6B35E"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1020201BB95669DC"
+				stage: "combat_hnn2"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "42858E73D9248982"
+		title: "Munitions Line"
+		subtitle: "§6Combat §7— §a12 §fAbyssal §7· §a70 §fFoundry §7· §a40 §fHusbandry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "createbigcannons:ap_shell" }
+		x: 35.0d
+		y: 0.09d
+		description: [
+			"Shells for every occasion: armour-piercing, high"
+			"explosive, grapeshot, smoke."
+		]
+		dependencies: ["43F1F9A50E2488C3", "44ACEE6F0BE50EBE", "36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "53559CDCAE9675DD"
+				count: 12L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "2C101F7C9F87400F"
+				count: 70L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "3006F0D880972FC2"
+				count: 40L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "1E1BCF9F14DDBD41"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "57C89077F783A636"
+				stage: "combat_munitions"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "2568A1087653531C"
+		title: "Reforging and Salvage"
+		subtitle: "§6Combat §7— §a55 §fFoundry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "apotheosis:reforging_table" }
+		x: 20.0d
+		y: -7.483d
+		description: [
+			"Reforge the gear you nearly like, and salvage the"
+			"gear you do not. Loot stops being a lottery."
+		]
+		dependencies: ["7AE221F0B8398643", "69FC84432A7C6E33"]
+		tasks: [
+			{
+				id: "7DC8DEEC251E90EC"
+				count: 55L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5038BB57364C1ACB"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1388044FD925C8E2"
+				stage: "combat_reforging"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "14AFE3752854BFA0"
+		title: "Spawner Craft"
+		subtitle: "§6Combat §7— §a18 §fAbyssal §7· §a100 §fFoundry §7· §a60 §fHusbandry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:iron_sword" }
+		x: 30.0d
+		y: -10.681d
+		description: [
+			"Spawner modifiers — ignore light, ignore players,"
+			"spawn faster. A captured spawner, argued with."
+		]
+		dependencies: ["2568A1087653531C", "7006DC038ED73929"]
+		tasks: [
+			{
+				id: "273DDEF60F13B255"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "1B6134B6EBC8FD97"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "63C95E6702BF851C"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "66DB4F1072552015"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "2D9567F8E1886EAA"
+				stage: "combat_spawners"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "6288D7CE79BEE33D"
+		title: "Ruin Archaeology"
+		subtitle: "§6Depth §7— §a15 §fAbyssal §7· §a17 §fFoundry §7· §a30 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:brush" }
+		x: 30.0d
+		y: -14.671d
+		description: [
+			"A brush, and suspicious rock worth brushing. Slow,"
+			"manual, and the only way to read a drowned ruin."
+		]
+		dependencies: ["7006DC038ED73929"]
+		tasks: [
+			{
+				id: "2C79DB4007912A7D"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "1606CAF58624090E"
+				count: 17L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "6F29C9B99DB2DE29"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "3A381B22B6C0F059"
+				stage: "depth_brush"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "664245016F8D5032"
+		title: "Conduit Cage"
+		subtitle: "§6Depth §7— §a15 §fAbyssal §7· §a25 §fFoundry §7· §a45 §fTrawl§r"
+		icon: { count: 1, id: "create_aquatic_ambitions:mechanical_conduit" }
+		x: 35.0d
+		y: -10.31d
+		description: [
+			"A mechanical conduit that burns fuel to hold the"
+			"water back. Bring more fuel than you think."
+		]
+		dependencies: ["6288D7CE79BEE33D", "36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "47F3C827B464EE6C"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "0D295345970A80AF"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "4208FEB55CA87E99"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "4FB78B6CC8605249"
+				stage: "depth_conduit"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7006DC038ED73929"
+		title: "Dive Rig"
+		subtitle: "§6Depth §7— §a13 §fFoundry §7· §a20 §fTrawl§r"
+		icon: { count: 1, id: "create:copper_backtank" }
+		x: 25.0d
+		y: -11.567d
+		description: [
+			"Copper helmet, boots and a backtank. The seabed is"
+			"sixty-odd blocks down; this is how you come back up."
+			""
+			"§7Turns on: §aAbyssal §rpacks"
+		]
+		dependencies: ["61AD7AB412DD5C46", "258D1196D32B1EC5", "4880B039CB204ADB"]
+		tasks: [
+			{
+				id: "3FFB18C841221DF8"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "09EC6AC531ED6CC3"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1925FF93E37631CA"
+				stage: "depth_dive"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "4C73520693340BFA"
+		title: "Pressure Gear"
+		subtitle: "§6Depth §7— §a30 §fAbyssal §7· §a30 §fFarm §7· §a55 §fFoundry §7· §a95 §fTrawl§r"
+		icon: { count: 1, id: "create:netherite_backtank" }
+		x: 35.0d
+		y: -7.71d
+		description: [
+			"Netherite diving gear. Deeper, longer, and"
+			"considerably harder to lose."
+			""
+			"§7Also grants: §a1 §rDiving skill point"
+		]
+		dependencies: ["7006DC038ED73929", "36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "26C09E0E7555B753"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3F527B0FC6F0EBF9"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "3AE42D765AB0CAC5"
+				count: 55L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "489E422AE7001352"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "3F77281C83629167"
+				stage: "depth_pressure"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "5810E41D745C7094"
+				command: "/puffish_skills points add @p diving 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "350CD3D39B0BC327"
+		title: "Seabed Installation"
+		subtitle: "§6Depth §7— §a30 §fAbyssal §7· §a45 §fFarm §7· §a80 §fFoundry §7· §a140 §fTrawl§r"
+		icon: { count: 1, id: "create:copper_diving_helmet" }
+		x: 45.0d
+		y: -12.359d
+		description: [
+			"The deep stops being somewhere you visit. The"
+			"hardware to live down there is still being built."
+		]
+		dependencies: ["31F92C5387996905", "4B4FC422640B56CC"]
+		tasks: [
+			{
+				id: "5622F82ECE1BDE10"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3EF0A60A1ABEE699"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "10B0AC5A4DC53019"
+				count: 80L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "6F744D0947A73AB7"
+				count: 140L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "195BF813ED2F819A"
+				stage: "depth_seabed"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "31F92C5387996905"
+		title: "Sponge Works"
+		subtitle: "§6Depth §7— §a30 §fAbyssal §7· §a30 §fFarm §7· §a55 §fFoundry §7· §a95 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:sponge" }
+		x: 40.0d
+		y: -10.699d
+		description: [
+			"Sponges you can make rather than find. This is how"
+			"the seabed becomes somewhere with air in it."
+			""
+			"§7Also grants: §a1 §rDiving skill point"
+		]
+		dependencies: ["664245016F8D5032"]
+		tasks: [
+			{
+				id: "46A4E5F43232530E"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3B2D38FD119C4EA4"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "3538830053DC534B"
+				count: 55L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "2FB617C02CC66BB4"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1F92BAB8363658F7"
+				stage: "depth_sponge"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "483CEE23CAE8B740"
+				command: "/puffish_skills points add @p diving 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "61AD7AB412DD5C46"
+		title: "Ore Vein Atlas"
+		subtitle: "§6Extraction §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:vein_atlas" }
+		x: 15.0d
+		y: -10.252d
+		description: [
+			"An atlas that remembers every vein you have sampled."
+			"The closest thing this pack has to a map."
+		]
+		dependencies: ["49E1DAD57FF6E7E2"]
+		tasks: [
+			{
+				id: "240EA99C9840DF66"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "0E8A335AEC882B7E"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "6316417A4A0A74AC"
+				stage: "extraction_atlas"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "2E2C55A0936521EE"
+		title: "Deep Veins"
+		subtitle: "§6Extraction §7— §a30 §fAbyssal §7· §a100 §fFoundry §7· §a18 §fHusbandry §7· §a60 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:raw_diamond" }
+		x: 40.0d
+		y: -8.099d
+		description: [
+			"Diamond, emerald and redstone veins. The deposits"
+			"actually worth building a rig over."
+		]
+		dependencies: ["664245016F8D5032", "4B4FC422640B56CC", "2280CF86085B4C4D"]
+		tasks: [
+			{
+				id: "5885BE251EB4F0B7"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "48B35AB931115658"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5C760DD5A422F327"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "7BDED8C589ED9225"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "103E04B17645BE4B"
+				stage: "extraction_deep_veins"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "30363514B9FC66F5"
+		title: "Drilling Rig I"
+		subtitle: "§6Extraction §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:drill" }
+		x: 15.0d
+		y: -12.852d
+		description: [
+			"The drilling machine and its first drill head. Point"
+			"it at a vein and it pays out forever."
+		]
+		dependencies: ["49E1DAD57FF6E7E2"]
+		tasks: [
+			{
+				id: "26A80B4CD32E8448"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "34FC3E6ACA298339"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "6B95F08B4FC1E45F"
+				stage: "extraction_drill1"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "258D1196D32B1EC5"
+		title: "Drilling Rig II"
+		subtitle: "§6Extraction §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:diamond_drill" }
+		x: 20.0d
+		y: -12.683d
+		description: [
+			"A diamond drill head. Faster, and it stops flinching"
+			"at the harder deposits."
+		]
+		dependencies: ["30363514B9FC66F5"]
+		tasks: [
+			{
+				id: "6C886AD42865DEC0"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "296F51BD65DACCE4"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "711D25BFEE94106A"
+				stage: "extraction_drill2"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "4B4FC422640B56CC"
+		title: "Drilling Rig III"
+		subtitle: "§6Extraction §7— §a15 §fAbyssal §7· §a50 §fFoundry §7· §a30 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:netherite_drill" }
+		x: 35.0d
+		y: -12.91d
+		description: [
+			"The netherite drill head. Nothing on the seabed"
+			"outlasts it."
+			""
+			"§7Also grants: §a1 §rFortune skill point"
+		]
+		dependencies: ["36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "4957A9455B35705B"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "036AE94E342A5EEA"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "4F1460B12FD6B22F"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0A7BB7FF8227AEE8"
+				stage: "extraction_drill3"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "26A3B86B5979D82F"
+				command: "/puffish_skills points add @p fortune 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "0A49EC61B4B846A6"
+		title: "Motherlode Rig"
+		subtitle: "§6Extraction §7— §a50 §fAbyssal §7· §a30 §fFarm §7· §a280 §fFoundry §7· §a50 §fHusbandry §7· §a170 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:drill" }
+		x: 55.0d
+		y: -14.513d
+		description: [
+			"The end of the tree: every kind of pack at once. The"
+			"rig it pays for is still on the drawing board."
+			""
+			"§7Also grants: §a1 §rFortune skill point"
+		]
+		dependencies: ["4B4FC422640B56CC", "3AAA9086958F443A", "211817CA04A848ED"]
+		tasks: [
+			{
+				id: "31188FD7E31769AF"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "616420E3C473E30C"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "2C2EBC4E655C523E"
+				count: 280L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "36D644669825BB8F"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "1389F6546550E27E"
+				count: 170L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "0CECE2F78B7897CF"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_alpha" }
+				type: "item"
+			}
+			{
+				id: "6909AFFF02F94CEB"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_gamma" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "7A31FCDA4D312DFD"
+				stage: "extraction_motherlode"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "0D1624140D193C7F"
+				command: "/puffish_skills points add @p fortune 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "2280CF86085B4C4D"
+		title: "Survey Radar"
+		subtitle: "§6Extraction §7— §a40 §fFoundry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:drill" }
+		x: 20.0d
+		y: -10.083d
+		description: [
+			"Radar and detector blocks — see what is coming"
+			"across the water before it sees you."
+		]
+		dependencies: ["61AD7AB412DD5C46"]
+		tasks: [
+			{
+				id: "43E45462FF6387F9"
+				count: 40L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "1339C52F48113FC3"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "6D4FB7642F1BF322"
+				stage: "extraction_radar"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "49E1DAD57FF6E7E2"
+		title: "Vein Finder"
+		subtitle: "§6Extraction §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:vein_finder" }
+		x: 10.0d
+		y: -10.101d
+		description: [
+			"A vein finder and a sample drill. The ocean stops"
+			"being scenery and acquires destinations."
+		]
+		dependencies: ["33F59C780B617DBD", "0266D4FF44DF3D38"]
+		tasks: [
+			{
+				id: "5AA23C6986AB57E7"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "4411CDBFF6F85410"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "4CA9878BB1FB668D"
+				stage: "extraction_vein_finder"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "230D7970CAAC668D"
+		title: "Aeronautic Frames"
+		subtitle: "§6Hull and Mobility §7— §a55 §fFarm §7· §a95 §fFoundry §7· §a30 §fHusbandry §7· §a160 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 55.0d
+		y: -8.686d
+		description: [
+			"The full Aeroworks kit. “Ship” quietly stops meaning"
+			"the thing in the water."
+		]
+		dependencies: ["7D7D004866FE35EF", "43E802B742A3C452", "3AAA9086958F443A"]
+		tasks: [
+			{
+				id: "6B057691BAC34CF0"
+				count: 55L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "0F5C15F68AF40577"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "78A05F267E226FC5"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "2621D4FD75336F30"
+				count: 160L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "392217A1B2BADBBF"
+				stage: "hull_aeronautics"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "4233A46F39C9B872"
+		title: "Flotsam Handling"
+		subtitle: "§6Hull and Mobility §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 0.0d
+		y: -4.379d
+		description: [
+			"The sea hands you rubbish; you call it inventory. No"
+			"new tools — this one just opens the tree."
+		]
+		tasks: [
+			{
+				id: "6FDF4315796B14BC"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "2B4DEA371AB72138"
+				stage: "hull_flotsam"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7D7D004866FE35EF"
+		title: "Ship's Helm"
+		subtitle: "§6Hull and Mobility §7— §a18 §fFoundry §7· §a35 §fTrawl§r"
+		icon: { count: 1, id: "createthrusters:advanced_contraption_controller" }
+		x: 15.0d
+		y: -7.652d
+		description: [
+			"A proper helm — steer the whole vessel from one"
+			"block instead of negotiating with it."
+		]
+		dependencies: ["420EEBD422D0F0A0"]
+		tasks: [
+			{
+				id: "1B88C5BE18DA49AA"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "686215CAC473B0AF"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "542A9056D23E4651"
+				stage: "hull_helm"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7AFE87D9D2508058"
+		title: "Personal Jetpacks"
+		subtitle: "§6Hull and Mobility §7— §a35 §fFarm §7· §a60 §fFoundry §7· §a18 §fHusbandry §7· §a100 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 35.0d
+		y: 2.69d
+		description: [
+			"Jetpacks, in every tier iron can manage. Going"
+			"overboard becomes an inconvenience, not an event."
+			""
+			"§7Also grants: §a1 §rSeafaring skill point"
+		]
+		dependencies: ["7C011D34C6C0C258", "1AB008DF5B11BB51", "36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "2397BC55A1E9C663"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "42165ABD58B9EEFB"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "235870DF9B0001C0"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "1921C00A73774C5A"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "7CE101E7CEFFD4D8"
+				stage: "hull_jetpacks"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "684B7D7D9C8737C3"
+				command: "/puffish_skills points add @p seafaring 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "33F59C780B617DBD"
+		title: "Fine Mesh"
+		subtitle: "§6Hull and Mobility §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:chain_mesh" }
+		x: 5.0d
+		y: -4.275d
+		description: [
+			"A chain mesh for the scoop: a catch every six"
+			"seconds instead of ten, and four times the life."
+		]
+		dependencies: ["4233A46F39C9B872"]
+		tasks: [
+			{
+				id: "2150B1674CB09502"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "747784B8B2801632"
+				stage: "hull_mesh2"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7C011D34C6C0C258"
+		title: "Grapples and Gliders"
+		subtitle: "§6Hull and Mobility §7— §a25 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 10.0d
+		y: 8.099d
+		description: [
+			"Grappling hooks and a hang glider, for when the ship"
+			"is over there and you are regrettably here."
+			""
+			"§7Also grants: §a1 §rSeafaring skill point"
+		]
+		dependencies: ["33F59C780B617DBD"]
+		tasks: [
+			{
+				id: "3891530F2BEEBFF8"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1E0659CF2C8AC9A4"
+				stage: "hull_personal_mobility"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "45047A09046480D7"
+				command: "/puffish_skills points add @p seafaring 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "420EEBD422D0F0A0"
+		title: "Screw Propulsion"
+		subtitle: "§6Hull and Mobility §7— §a16 §fFoundry §7· §a31 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 10.0d
+		y: -4.901d
+		description: [
+			"Propellers, and the fuel to spin them. The ship"
+			"stops drifting and starts going somewhere."
+		]
+		dependencies: ["0266D4FF44DF3D38"]
+		tasks: [
+			{
+				id: "3273C129559672CF"
+				count: 16L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5CA53D24E5103521"
+				count: 31L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "71A5A95AA0479B70"
+				stage: "hull_propeller"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "0266D4FF44DF3D38"
+		title: "Seaworthy Hull"
+		subtitle: "§6Hull and Mobility §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "threehourtour:treated_planks" }
+		x: 5.0d
+		y: -6.875d
+		description: [
+			"Treated planks, slabs and stairs — wood that has"
+			"stopped taking the ocean personally."
+			""
+			"§7Turns on: §aFoundry §rpacks"
+		]
+		dependencies: ["4233A46F39C9B872"]
+		tasks: [
+			{
+				id: "4EE063120D02108B"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "64E5B35CFDB74278"
+				stage: "hull_seaworthy"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "43E802B742A3C452"
+		title: "Thruster Array"
+		subtitle: "§6Hull and Mobility §7— §a29 §fFoundry §7· §a56 §fTrawl§r"
+		icon: { count: 1, id: "createthrusters:thruster" }
+		x: 20.0d
+		y: -2.283d
+		description: [
+			"Thrusters, bearings and lenses. Real speed, and the"
+			"first hint that “ship” is a loose term."
+		]
+		dependencies: ["420EEBD422D0F0A0", "69FC84432A7C6E33"]
+		tasks: [
+			{
+				id: "4F8CA06E8F6A87B2"
+				count: 29L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "3C9EA79B5CEA38C1"
+				count: 56L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0CBA3C2A791585B6"
+				stage: "hull_thrusters"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "69FC84432A7C6E33"
+		title: "Brass Age"
+		subtitle: "§6Industry §7— §a30 §fFoundry §7· §a18 §fTrawl§r"
+		icon: { count: 1, id: "create:brass_casing" }
+		x: 15.0d
+		y: -2.452d
+		description: [
+			"Brass, and the blaze burner that makes it. The"
+			"Nether trip you have been putting off, cashed in."
+		]
+		dependencies: ["0266D4FF44DF3D38", "131CEDE761A2511E"]
+		tasks: [
+			{
+				id: "09C1B078DD0646E4"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5E419EDD904726AD"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "3A6977D9F56866CA"
+				stage: "industry_brass"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "44ACEE6F0BE50EBE"
+		title: "Bulk Processing"
+		subtitle: "§6Industry §7— §a85 §fFoundry §7· §a50 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 30.0d
+		y: -0.281d
+		description: [
+			"Bulk washing, boiling and processing. The point"
+			"where one at a time stops being acceptable."
+		]
+		dependencies: ["3007E3F9A23FECEF"]
+		tasks: [
+			{
+				id: "37359137CED571A6"
+				count: 85L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "3DE06CD13B6A9C00"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "2029EB92BDDCDD87"
+				stage: "industry_bulk"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "5A2FA986248A1A58"
+		title: "Cobblestone Works"
+		subtitle: "§6Industry §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 5.0d
+		y: -1.675d
+		description: [
+			"A cobblestone generator that runs on rotation."
+			"Stone, in a place that has none of it."
+		]
+		dependencies: ["4233A46F39C9B872"]
+		tasks: [
+			{
+				id: "38E459FBE45A646E"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "061941DCAC1DC84C"
+				stage: "industry_cobblegen"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "57544ABC5F82B18A"
+		title: "Diesel Generation"
+		subtitle: "§6Industry §7— §a15 §fAbyssal §7· §a45 §fFoundry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 35.0d
+		y: -5.11d
+		description: [
+			"Oil, refining, and engines that drink it. Loud,"
+			"filthy, and a great deal of power."
+		]
+		dependencies: ["36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "3C6B16279A105EDD"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "22173CC50F52F42A"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "30B480F2906DB6C6"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "67069C0A2F784F0E"
+				stage: "industry_diesel"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "1AB008DF5B11BB51"
+		title: "Electrification"
+		subtitle: "§6Industry §7— §a80 §fFoundry §7· §a45 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 30.0d
+		y: 2.319d
+		description: [
+			"Electricity — wires, motors and generators. Rotation"
+			"becomes something you can send down a cable."
+			""
+			"§7Also grants: §a1 §rFortune skill point"
+		]
+		dependencies: ["3007E3F9A23FECEF"]
+		tasks: [
+			{
+				id: "1B891CCB3512645A"
+				count: 80L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "002E7524E89FCBE0"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "40C68110835481F1"
+				stage: "industry_electric"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "382877DB8251466B"
+				command: "/puffish_skills points add @p fortune 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "4AC3B8A086628AD5"
+		title: "Encased Machinery"
+		subtitle: "§6Industry §7— §a35 §fFoundry §7· §a19 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 20.0d
+		y: 2.917d
+		description: [
+			"Three toolboxes of machinery above the andesite"
+			"tier. Everything you wished the basic kit did."
+		]
+		dependencies: ["69FC84432A7C6E33"]
+		tasks: [
+			{
+				id: "551FAFEE5E664ABA"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5465F431BB9D7505"
+				count: 19L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "558697CABCB5461D"
+				stage: "industry_encased"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "36B6651CA15C86AD"
+		title: "Refined Drilling Fluid"
+		subtitle: "§6Industry §7— §a15 §fAbyssal §7· §a45 §fFoundry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "createoreexcavation:extractor" }
+		x: 30.0d
+		y: -8.081d
+		description: [
+			"The extractor, and the fluid a drilling rig runs on."
+			"The rig goes anywhere; its drink comes from below."
+		]
+		dependencies: ["7006DC038ED73929", "258D1196D32B1EC5"]
+		tasks: [
+			{
+				id: "159EF515A88D9B39"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "02EC76D4C9A148FE"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7A510D624007A534"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "422B8B03D7687AE9"
+				stage: "industry_fluid"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "131CEDE761A2511E"
+		title: "Furnace Tiers"
+		subtitle: "§6Industry §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 10.0d
+		y: 2.899d
+		description: [
+			"The furnace ladder, iron and upward. Each tier"
+			"smelts faster and wastes less of the fuel."
+		]
+		dependencies: ["4233A46F39C9B872", "5A2FA986248A1A58"]
+		tasks: [
+			{
+				id: "6DA79F2A267BC5C6"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "2ABE45C022809D4A"
+				stage: "industry_furnaces"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "4B4297511DE6FA1C"
+		title: "Generation Age"
+		subtitle: "§6Industry §7— §a30 §fAbyssal §7· §a18 §fFarm §7· §a100 §fFoundry §7· §a60 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 35.0d
+		y: -2.51d
+		description: [
+			"Generation at a scale that needs a grid to carry it."
+			"Power stops being a per-machine problem."
+		]
+		dependencies: ["1AB008DF5B11BB51", "36B6651CA15C86AD"]
+		tasks: [
+			{
+				id: "233D644A0295CE84"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "3F1593F6ED1D169F"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "746F5D07DBEBE1AD"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "61BF904B10CAAA2A"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "7DD98A4F0843026D"
+				stage: "industry_new_age"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "06C99699A3C9FB15"
+		title: "Nuclear Core"
+		subtitle: "§6Industry §7— §a50 §fAbyssal §7· §a50 §fFarm §7· §a280 §fFoundry §7· §a30 §fHusbandry §7· §a170 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 60.0d
+		y: -12.536d
+		description: [
+			"A reactor. Enormous power, and a fuel cycle that"
+			"punishes anyone who stops paying attention."
+		]
+		dependencies: ["0A49EC61B4B846A6", "4B4297511DE6FA1C"]
+		tasks: [
+			{
+				id: "0D3C6A8A62A18F46"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "47380F6CCB95E376"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "2AD1D0856AC49C12"
+				count: 280L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "3A31D61DF5B7F6A1"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "4B3F1D9E616DA7C1"
+				count: 170L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "231AB21FAFFCAE78"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_alpha" }
+				type: "item"
+			}
+			{
+				id: "737562B2D53FAB4A"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_beta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "55AE0806E5297E40"
+				stage: "industry_nuclear"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "3AAA9086958F443A"
+		title: "Deep Power Grid"
+		subtitle: "§6Industry §7— §a30 §fAbyssal §7· §a30 §fFarm §7· §a160 §fFoundry §7· §a95 §fTrawl§r"
+		icon: { count: 1, id: "create:steam_engine" }
+		x: 50.0d
+		y: -13.127d
+		description: [
+			"Steam engines, energisers and motors. Nothing"
+			"survives at depth without power arriving reliably."
+		]
+		dependencies: ["350CD3D39B0BC327"]
+		tasks: [
+			{
+				id: "0F09604C436D8AAD"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "2851C3144C4FC84E"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "1ABCC2585367802E"
+				count: 160L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5284350BBFBD7FC5"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "5991C3C345ECD28E"
+				stage: "industry_power"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "3007E3F9A23FECEF"
+		title: "Precision Mechanisms"
+		subtitle: "§6Industry §7— §a80 §fFoundry §7· §a45 §fTrawl§r"
+		icon: { count: 1, id: "create:precision_mechanism" }
+		x: 25.0d
+		y: -4.896d
+		description: [
+			"Deployers, arms, crafters and precision mechanisms."
+			"Where Create starts building things for you."
+		]
+		dependencies: ["4AC3B8A086628AD5"]
+		tasks: [
+			{
+				id: "70FC480A0038F932"
+				count: 80L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7F53127933D65EDD"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1C73F3CB836F3A80"
+				stage: "industry_precision"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "31F29BC5028AAB3D"
+		title: "Pylon Fields"
+		subtitle: "§6Industry §7— §a13 §fFarm §7· §a20 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 10.0d
+		y: 18.499d
+		description: [
+			"Pylons that push an effect across an area — growth,"
+			"harvest, and other chores you would rather skip."
+		]
+		dependencies: ["7AFF88F25791CB1D"]
+		tasks: [
+			{
+				id: "7569063467EF01F5"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "5D008E4939394B2D"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "07A77A1AD562DF9E"
+				stage: "industry_pylons"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "13C582ADD05E694E"
+		title: "Logic Tiers"
+		subtitle: "§6Industry §7— §a35 §fFoundry §7· §a19 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 20.0d
+		y: 0.317d
+		description: [
+			"Proper redstone logic, plus a pen for drawing wire"
+			"on walls. Fewer trenches through your deck."
+		]
+		dependencies: ["69FC84432A7C6E33"]
+		tasks: [
+			{
+				id: "155DBF2673D252B2"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "0D6D88631B18EE21"
+				count: 19L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "6734370F05EB73D9"
+				stage: "industry_redstone"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "205E4CC201810574"
+		title: "Long-Line Transmission"
+		subtitle: "§6Industry §7— §a85 §fFoundry §7· §a50 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 30.0d
+		y: -5.481d
+		description: [
+			"Rotation sent a long way without a shaft every two"
+			"blocks. Ships are long; this helps."
+		]
+		dependencies: ["3007E3F9A23FECEF", "13C582ADD05E694E"]
+		tasks: [
+			{
+				id: "6393BBA8271671CA"
+				count: 85L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "63A217C502950F31"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1035F4F66E662F01"
+				stage: "industry_transmission"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "0083004A30B3A522"
+		title: "Ultimate Factory"
+		subtitle: "§6Industry §7— §a50 §fAbyssal §7· §a50 §fFarm §7· §a280 §fFoundry §7· §a30 §fHusbandry §7· §a170 §fTrawl§r"
+		icon: { count: 1, id: "create:cogwheel" }
+		x: 65.0d
+		y: -12.536d
+		description: [
+			"Compacting recipes for nearly every bulk material in"
+			"the pack. The last word in doing it at scale."
+			""
+			"§7Also grants: §a1 §rFortune skill point"
+		]
+		dependencies: ["06C99699A3C9FB15"]
+		tasks: [
+			{
+				id: "117855DEEE842866"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "79EF37D882B9B104"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "7AAEBE974074623B"
+				count: 280L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "3A18EC2C1C46EE5D"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "0BDD319402B5D260"
+				count: 170L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "282B9766546F3566"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_alpha" }
+				type: "item"
+			}
+			{
+				id: "5697BE8D6FAAF886"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_beta" }
+				type: "item"
+			}
+			{
+				id: "3127C8EF8F3AB4BF"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_gamma" }
+				type: "item"
+			}
+			{
+				id: "09E56285F1E325C6"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_delta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "7AE3B42DE371B0BF"
+				stage: "industry_ultimate"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "02DDD3285CA107F9"
+				command: "/puffish_skills points add @p fortune 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "3C669EE94ECC6BE9"
+		title: "Botany Pots"
+		subtitle: "§6Living Aboard §7— §a16 §fFarm §7· §a31 §fTrawl§r"
+		icon: { count: 1, id: "botanypots:black_concrete_hopper_botany_pot" }
+		x: 15.0d
+		y: 5.743d
+		description: [
+			"Hopper-fed pots that plant, grow and harvest"
+			"themselves. Your crops stop needing you."
+		]
+		dependencies: ["7AFF88F25791CB1D", "2897EFAC8FC54013"]
+		tasks: [
+			{
+				id: "34FE26BBCDE016DB"
+				count: 16L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "653A6FBDB126EF52"
+				count: 31L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "6F49F32924BD1E6B"
+				stage: "living_aboard_botany"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7AFF88F25791CB1D"
+		title: "Ship’s Galley"
+		subtitle: "§6Living Aboard §7— §a9 §fTrawl§r"
+		icon: { count: 1, id: "farmersdelight:cooking_pot" }
+		x: 5.0d
+		y: 6.509d
+		description: [
+			"A cooking pot and the planters to fill it. The deck"
+			"becomes somewhere you can actually eat."
+			""
+			"§7Turns on: §aFarm §rpacks"
+		]
+		dependencies: ["4233A46F39C9B872"]
+		tasks: [
+			{
+				id: "25304D6153DCC8D6"
+				count: 9L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "48328BCACB1047D5"
+				stage: "living_aboard_galley"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "13ABFFAC479149CD"
+		title: "Integrated Farming"
+		subtitle: "§6Living Aboard §7— §a100 §fFarm §7· §a70 §fFoundry §7· §a120 §fTrawl§r"
+		icon: { count: 1, id: "farmersdelight:cooking_pot" }
+		x: 30.0d
+		y: 4.919d
+		description: [
+			"Farming wired into Create: planting, harvesting and"
+			"processing on one line, no hands."
+			""
+			"§7Also grants: §a1 §rConstitution skill point"
+		]
+		dependencies: ["3007E3F9A23FECEF", "3C669EE94ECC6BE9", "013B4DB63DF63E91"]
+		tasks: [
+			{
+				id: "7C9A2323C5E91C0C"
+				count: 100L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "7A26F3E7CA317BD5"
+				count: 70L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "04755B1623146D5B"
+				count: 120L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "675FEEA704A5448D"
+				stage: "living_aboard_integrated_farming"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "6833F79CB5F5F055"
+				command: "/puffish_skills points add @p constitution 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "4880B039CB204ADB"
+		title: "Livestock Deck"
+		subtitle: "§6Living Aboard §7— §a8 §fFarm §7· §a17 §fTrawl§r"
+		icon: { count: 1, id: "animalhusbandry:brushing_post" }
+		x: 10.0d
+		y: 5.499d
+		description: [
+			"Troughs, a brushing post and a ledger. Animals"
+			"aboard, assuming you can get them there."
+			""
+			"§7Turns on: §aHusbandry §rpacks"
+		]
+		dependencies: ["7AFF88F25791CB1D"]
+		tasks: [
+			{
+				id: "6A1602C35D433C44"
+				count: 8L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "50D0CA812498BBBE"
+				count: 17L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "5E506F932937852D"
+				stage: "living_aboard_livestock"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "16586CD9FFD0DDDC"
+		title: "Rod and Line"
+		subtitle: "§6Living Aboard §7— §a8 §fFarm §7· §a17 §fTrawl§r"
+		icon: { count: 1, id: "create_integrated_farming:fishing_net" }
+		x: 10.0d
+		y: 10.699d
+		description: [
+			"Iron rods, bait and a fish finder — plus a net that"
+			"fishes for you if you bolt it to a contraption."
+		]
+		dependencies: ["7AFF88F25791CB1D"]
+		tasks: [
+			{
+				id: "54744932CEEB3C09"
+				count: 8L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "4180A967FBAD3661"
+				count: 17L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0433AB4AC5E264F5"
+				stage: "living_aboard_lures"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "013B4DB63DF63E91"
+		title: "Seed Market"
+		subtitle: "§6Living Aboard §7— §a8 §fFarm §7· §a17 §fTrawl§r"
+		icon: { count: 1, id: "farmersdelight:cooking_pot" }
+		x: 10.0d
+		y: 13.299d
+		description: [
+			"A seed market on deck, so a crop you found once is a"
+			"crop you can grow forever."
+			""
+			"§7Also grants: §a1 §rConstitution skill point"
+		]
+		dependencies: ["7AFF88F25791CB1D"]
+		tasks: [
+			{
+				id: "1DAD15A1A4ED7F2D"
+				count: 8L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "04767473DF72F7D9"
+				count: 17L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "1C350C2BD2437E59"
+				stage: "living_aboard_market"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "02274CFC3B6D7511"
+				command: "/puffish_skills points add @p constitution 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "19473CDC3CF917A7"
+		title: "Slice and Dice"
+		subtitle: "§6Living Aboard §7— §a29 §fFarm §7· §a56 §fTrawl§r"
+		icon: { count: 1, id: "farmersdelight:cooking_pot" }
+		x: 15.0d
+		y: 3.143d
+		description: [
+			"Mechanical knives for the galley. Farmer's Delight"
+			"cooking, done by machine instead of by hand."
+		]
+		dependencies: ["16586CD9FFD0DDDC"]
+		tasks: [
+			{
+				id: "7974C9ADDF5D5C02"
+				count: 29L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "67B6F7EFFA0BA480"
+				count: 56L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "31C7FC71C9C0CE30"
+				stage: "living_aboard_sliceanddice"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "2897EFAC8FC54013"
+		title: "Fresh Water"
+		subtitle: "§6Living Aboard §7— §a12 §fFarm §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "farmersdelight:cooking_pot" }
+		x: 10.0d
+		y: 15.899d
+		description: [
+			"Filters and a boiler. Seawater goes in undrinkable"
+			"and comes out drinkable — the oldest problem here."
+		]
+		dependencies: ["7AFF88F25791CB1D"]
+		tasks: [
+			{
+				id: "63B696D2F8199A05"
+				count: 12L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "7EEFD66C78983D76"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "3A617A14E250D5CA"
+				stage: "living_aboard_water"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "7EE7FC238DE931C8"
+		title: "Automated Air Freight"
+		subtitle: "§6Logistics §7— §a30 §fAbyssal §7· §a90 §fFarm §7· §a260 §fFoundry §7· §a45 §fHusbandry §7· §a150 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:chest" }
+		x: 60.0d
+		y: -7.336d
+		description: [
+			"Airship routes, docks and cargo transfer. Your"
+			"outposts start shipping to you."
+		]
+		dependencies: ["230D7970CAAC668D", "5F8771E93AFE7C27"]
+		tasks: [
+			{
+				id: "38A915A958B5B6F2"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "16C602D930A71BFD"
+				count: 90L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "04C8E1F69B1D7453"
+				count: 260L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5356E39E0FA6D701"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "5862E1149A06B1D1"
+				count: 150L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "2095F656894DC687"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_beta" }
+				type: "item"
+			}
+			{
+				id: "1B53520C95B5E886"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_delta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "5EB1E831E39B7B8A"
+				stage: "logistics_airships"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "181EA1F2CBA72CE8"
+		title: "Sophisticated Backpacks"
+		subtitle: "§6Logistics §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:chest" }
+		x: 15.0d
+		y: -5.052d
+		description: [
+			"Backpacks that take the same upgrades your chests"
+			"do. Your inventory problem, made portable."
+		]
+		dependencies: ["1D26A63BCCB2B4F0"]
+		tasks: [
+			{
+				id: "594F8C7287D633F8"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "552E3D4EB79A100B"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "5AA98770DDDEF070"
+				stage: "logistics_backpacks"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "549FB1F5E028C825"
+		title: "Item Collectors"
+		subtitle: "§6Logistics §7— §a40 §fFoundry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:chest" }
+		x: 20.0d
+		y: 5.517d
+		description: [
+			"Blocks that sweep up loose items over a radius. For"
+			"everything a machine throws on the floor."
+			""
+			"§7Also grants: §a1 §rSeafaring skill point"
+		]
+		dependencies: ["554B1960D2006EA5"]
+		tasks: [
+			{
+				id: "30DCD5E41202E5D0"
+				count: 40L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "31A14C999E862A0B"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "421132A256D112B5"
+				stage: "logistics_collectors"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "1C4CB9E19D52720A"
+				command: "/puffish_skills points add @p seafaring 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "4F9302E88ABE9D5B"
+		title: "Functional Storage"
+		subtitle: "§6Logistics §7— §a30 §fFoundry §7· §a18 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:chest" }
+		x: 10.0d
+		y: 0.299d
+		description: [
+			"Drawers — one item each, stacked deep, labelled on"
+			"the front. The end of the wall of chests."
+		]
+		dependencies: ["0266D4FF44DF3D38"]
+		tasks: [
+			{
+				id: "05C4A25259D3F626"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "6C9F9C4C1D462228"
+				count: 18L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "41CB9073442E26DB"
+				stage: "logistics_functional"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "554B1960D2006EA5"
+		title: "Item Conduits"
+		subtitle: "§6Logistics §7— §a35 §fFoundry §7· §a19 §fTrawl§r"
+		icon: { count: 1, id: "minecraft:chest" }
+		x: 15.0d
+		y: 0.148d
+		description: [
+			"Pipes for items, fluids, power and gas, upgradeable"
+			"in place. Cheaper than a belt through a wall."
+		]
+		dependencies: ["4F9302E88ABE9D5B"]
+		tasks: [
+			{
+				id: "0D8D4EBD3DC63DC0"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7B29F27838717D1C"
+				count: 19L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "490910BBBA134629"
+				stage: "logistics_pipez"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "5F8771E93AFE7C27"
+		title: "Refined Storage"
+		subtitle: "§6Logistics §7— §a55 §fFarm §7· §a160 §fFoundry §7· §a30 §fHusbandry §7· §a95 §fTrawl§r"
+		icon: { count: 1, id: "refinedstorage:controller" }
+		x: 55.0d
+		y: -11.286d
+		description: [
+			"A digital storage network: one grid, every item, and"
+			"autocrafting behind it."
+		]
+		dependencies: ["3AAA9086958F443A", "48B733C433028612"]
+		tasks: [
+			{
+				id: "70554BAE51D7C793"
+				count: 55L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "20C2FE701F3A8FFF"
+				count: 160L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "6C14B24F5779AD98"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "0A0FDBFCD13E063F"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "09D748A64E5B5E42"
+				stage: "logistics_refined"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "1D26A63BCCB2B4F0"
+		title: "Storage Upgrades I"
+		subtitle: "§6Logistics §7— §a20 §fFoundry §7· §a13 §fTrawl§r"
+		icon: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
+		x: 10.0d
+		y: -2.301d
+		description: [
+			"The first upgrades for a chest: filters, magnets,"
+			"hoppers and a void slot for the rubbish."
+		]
+		dependencies: ["0266D4FF44DF3D38"]
+		tasks: [
+			{
+				id: "1D1FF5A1EE6DC05F"
+				count: 20L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "75A4C89B83FA9EE7"
+				count: 13L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "284F94D2C2C6A696"
+				stage: "logistics_sophisticated1"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "48B733C433028612"
+		title: "Storage Upgrades II"
+		subtitle: "§6Logistics §7— §a40 §fFoundry §7· §a25 §fTrawl§r"
+		icon: { count: 1, id: "sophisticatedstorage:advanced_alchemy_upgrade" }
+		x: 20.0d
+		y: -4.883d
+		description: [
+			"Advanced upgrades — a chest that smelts, pumps and"
+			"sorts on its own, up to the netherite tier."
+		]
+		dependencies: ["69FC84432A7C6E33", "1D26A63BCCB2B4F0"]
+		tasks: [
+			{
+				id: "72BA5AA88A9EA640"
+				count: 40L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7EA70EA60BB645FE"
+				count: 25L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "2ABB6D5D57CDDB81"
+				stage: "logistics_sophisticated2"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "1B51B40D75A1B97C"
+		title: "Wireless Network"
+		subtitle: "§6Logistics §7— §a30 §fAbyssal §7· §a90 §fFarm §7· §a260 §fFoundry §7· §a45 §fHusbandry §7· §a150 §fTrawl§r"
+		icon: { count: 1, id: "refinedstorage:wireless_autocrafting_monitor" }
+		x: 60.0d
+		y: -9.936d
+		description: [
+			"The whole network, reachable without walking to it —"
+			"and the disks to make that worth having."
+			""
+			"§7Also grants: §a1 §rSeafaring skill point"
+		]
+		dependencies: ["5F8771E93AFE7C27"]
+		tasks: [
+			{
+				id: "0807EAB367D7C5D9"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "31696CA434A09F9A"
+				count: 90L
+				item: { count: 1, id: "threehourtour:pack_farm" }
+				type: "item"
+			}
+			{
+				id: "02DDDA0CFE96EA60"
+				count: 260L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "512511266F03AA4D"
+				count: 45L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "229CC12B3BA5DD79"
+				count: 150L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "5E73970BD2D8D0D7"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_gamma" }
+				type: "item"
+			}
+			{
+				id: "12714B2F829E7801"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_delta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "36732749F5F645EB"
+				stage: "logistics_wireless"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "53B2BF8A98B5EC8C"
+				command: "/puffish_skills points add @p seafaring 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "0C25F03FC2F0AD65"
+		title: "Attunement"
+		subtitle: "§6Magic §7— §a15 §fAbyssal §7· §a17 §fFoundry §7· §a30 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:arcane_essence" }
+		x: 35.0d
+		y: -17.413d
+		description: [
+			"A copper spell book, ink and arcane essence. The"
+			"first magic in the pack, and the source of Arcane."
+			""
+			"§7Turns on: §aArcane §rpacks"
+		]
+		dependencies: ["6288D7CE79BEE33D"]
+		tasks: [
+			{
+				id: "3DDB5DFDF0A0F9E7"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "10C2E910FDD5046D"
+				count: 17L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7B7EB81F886EAF70"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "50A5156C0C541601"
+				stage: "magic_attunement"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "10E3A447F393F2D6"
+		title: "Automated Enchanting"
+		subtitle: "§6Magic §7— §a50 §fAbyssal §7· §a200 §fArcane §7· §a95 §fFoundry §7· §a60 §fHusbandry §7· §a180 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+		x: 50.0d
+		y: -15.727d
+		description: [
+			"Enchanting on a production line — disenchant, print,"
+			"apply. No more standing at a table."
+		]
+		dependencies: ["5B67D502D00A220E", "2CC4E2D70C465A4C"]
+		tasks: [
+			{
+				id: "15B39B6C99816AB7"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "767F2A61AE43909B"
+				count: 200L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "411A863DE82163BA"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "07A3EF8F37FA0273"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "179F27252309CE81"
+				count: 180L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "70094C0120D878F3"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_beta" }
+				type: "item"
+			}
+			{
+				id: "1AA2AF320364DC44"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_gamma" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "21F17BCDE9F3CEB4"
+				stage: "magic_auto_enchanting"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "66C53A6CDE80497E"
+		title: "The Grand Ritual"
+		subtitle: "§6Magic §7— §a50 §fAbyssal §7· §a200 §fArcane §7· §a95 §fFoundry §7· §a60 §fHusbandry §7· §a180 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:blood_staff" }
+		x: 55.0d
+		y: -17.113d
+		description: [
+			"The top of the ladder: netherite and dragonskin"
+			"books, and staves worth the walk to reach them."
+			""
+			"§7Also grants: §a1 §rMagic skill point"
+		]
+		dependencies: ["10E3A447F393F2D6", "22D80CB44149AEC0"]
+		tasks: [
+			{
+				id: "3F019CC2A11E9D2B"
+				count: 50L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "7130615BA96F98B1"
+				count: 200L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "134969F8EB737AF7"
+				count: 95L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "4FB460EFABB6EB4A"
+				count: 60L
+				item: { count: 1, id: "threehourtour:pack_husbandry" }
+				type: "item"
+			}
+			{
+				id: "578F5E6F2ADD6493"
+				count: 180L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+			{
+				id: "08908608E5CBD2F3"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_alpha" }
+				type: "item"
+			}
+			{
+				id: "6758ECC8CE37D71F"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_beta" }
+				type: "item"
+			}
+			{
+				id: "238EF499CB7DD5BE"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_gamma" }
+				type: "item"
+			}
+			{
+				id: "33073D80A412B994"
+				count: 1L
+				item: { count: 1, id: "threehourtour:seal_delta" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "3770FC47A89F6C95"
+				stage: "magic_grand_ritual"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "0BADA41DF726B9D9"
+				command: "/puffish_skills points add @p magic 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "22D80CB44149AEC0"
+		title: "Jewelcrafting"
+		subtitle: "§6Magic §7— §a15 §fAbyssal §7· §a29 §fArcane §7· §a41 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+		x: 40.0d
+		y: -18.499d
+		description: [
+			"Rings, amulets and the gems to set in them. Power"
+			"you wear rather than cast."
+		]
+		dependencies: ["0C25F03FC2F0AD65"]
+		tasks: [
+			{
+				id: "2FF08760D96A5D2A"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "6AF6AC10C4AC34DE"
+				count: 29L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "3851BF57E54278CC"
+				count: 41L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0E203E8BF989AA57"
+				stage: "magic_jewelry"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "211817CA04A848ED"
+		title: "Ritual Bench"
+		subtitle: "§6Magic §7— §a30 §fAbyssal §7· §a73 §fArcane §7· §a35 §fFoundry §7· §a72 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+		x: 40.0d
+		y: -15.899d
+		description: [
+			"An arcane anvil and an alchemist's cauldron. Where"
+			"Arcane packs get spent instead of hoarded."
+		]
+		dependencies: ["0C25F03FC2F0AD65"]
+		tasks: [
+			{
+				id: "434F344606EE63BA"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "7888E4C37D000EE0"
+				count: 73L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "033C03B3A441C6AD"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "0E229549783BF78A"
+				count: 72L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "0231899188181EB9"
+				stage: "magic_ritual"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "64D99C0D2C733576"
+		title: "Spellcraft"
+		subtitle: "§6Magic §7— §a15 §fAbyssal §7· §a43 §fArcane §7· §a67 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:diamond_spell_book" }
+		x: 40.0d
+		y: -13.299d
+		description: [
+			"Better books, an inscription table and a scroll"
+			"forge. Write spells rather than find them."
+		]
+		dependencies: ["0C25F03FC2F0AD65"]
+		tasks: [
+			{
+				id: "69A2B252C8096B4C"
+				count: 15L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "7A7E8EC843D64D1C"
+				count: 43L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "7D791C69C200A8AB"
+				count: 67L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "680408B342710910"
+				stage: "magic_spellcraft"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	{
+		id: "5B67D502D00A220E"
+		title: "Mechanised Wizardry"
+		subtitle: "§6Magic §7— §a30 §fAbyssal §7· §a73 §fArcane §7· §a35 §fFoundry §7· §a72 §fTrawl§r"
+		icon: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+		x: 45.0d
+		y: -9.759d
+		description: [
+			"The bridge between Create and spellcasting. Machines"
+			"that cast, which is as sensible as it sounds."
+			""
+			"§7Also grants: §a1 §rMagic skill point"
+		]
+		dependencies: ["3007E3F9A23FECEF", "64D99C0D2C733576"]
+		tasks: [
+			{
+				id: "0C907A5F03A069B7"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "24E2D68D74203CCA"
+				count: 73L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "34590D25A166BEAD"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "7AABE09FAA76F14E"
+				count: 72L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "083D562E42B88306"
+				stage: "magic_wizardry"
+				type: "historystages:history_stage"
+			}
+			{
+				id: "2EF27A6F079CAB16"
+				command: "/puffish_skills points add @p magic 1"
+				elevate_perms: true
+				type: "command"
+			}
+		]
+	}
+	{
+		id: "2CC4E2D70C465A4C"
+		title: "Liquid Experience"
+		subtitle: "§6Magic §7— §a30 §fAbyssal §7· §a73 §fArcane §7· §a35 §fFoundry §7· §a72 §fTrawl§r"
+		icon: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+		x: 45.0d
+		y: -14.959d
+		description: [
+			"Experience as a fluid, in buckets and pipes. Levels"
+			"stop being something you have to carry."
+		]
+		dependencies: ["36B6651CA15C86AD", "211817CA04A848ED"]
+		tasks: [
+			{
+				id: "669D88632A3BB52A"
+				count: 30L
+				item: { count: 1, id: "threehourtour:pack_abyssal" }
+				type: "item"
+			}
+			{
+				id: "322CAE670E05DF89"
+				count: 73L
+				item: { count: 1, id: "threehourtour:pack_arcane" }
+				type: "item"
+			}
+			{
+				id: "46C4CAC489EFD66A"
+				count: 35L
+				item: { count: 1, id: "threehourtour:pack_foundry" }
+				type: "item"
+			}
+			{
+				id: "5C90B52D9E7D1E49"
+				count: 72L
+				item: { count: 1, id: "threehourtour:pack_trawl" }
+				type: "item"
+			}
+		]
+		rewards: [
+			{
+				id: "46EDA11095E62588"
+				stage: "magic_xp_fluid"
+				type: "historystages:history_stage"
+			}
+		]
+	}
+	]
+}

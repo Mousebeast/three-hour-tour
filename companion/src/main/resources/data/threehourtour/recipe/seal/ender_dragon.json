@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "threehourtour_seals",
+  "ingredients": [
+    {
+      "item": "threehourtour:trophy_ender_dragon"
+    }
+  ],
+  "result": {
+    "id": "threehourtour:seal_delta",
+    "count": 1
+  }
+}

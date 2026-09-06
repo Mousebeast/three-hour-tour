@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "threehourtour_pearls",
+  "pattern": [
+    "KIK",
+    "PFP",
+    "KIK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "F": {
+      "item": "threehourtour:fire_sigil"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "threehourtour:hunt/ignis_mk2"
+}

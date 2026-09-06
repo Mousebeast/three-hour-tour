@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Ore Vein Atlas",
+  "items": [
+    "createoreexcavation:vein_atlas"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

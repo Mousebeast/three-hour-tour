@@ -1,0 +1,15 @@
+{
+  "input": {
+    "item": "threehourtour:core_arcane"
+  },
+  "requirements": {
+    "arcana": 20,
+    "eterna": 45,
+    "quanta": 15
+  },
+  "result": {
+    "count": 1,
+    "id": "threehourtour:pack_arcane"
+  },
+  "type": "apothic_enchanting:infusion"
+}

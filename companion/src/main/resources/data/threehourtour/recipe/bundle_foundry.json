@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_foundry"
+  },
+  "type": "minecraft:crafting_shaped"
+}

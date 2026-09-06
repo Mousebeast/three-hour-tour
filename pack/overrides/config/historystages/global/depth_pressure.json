@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Pressure Gear",
+  "items": [
+    "create:netherite_backtank",
+    "create:netherite_diving_boots",
+    "create:netherite_diving_helmet"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

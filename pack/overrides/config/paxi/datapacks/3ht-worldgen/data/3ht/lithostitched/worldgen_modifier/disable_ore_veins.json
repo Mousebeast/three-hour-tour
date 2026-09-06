@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:wrap_noise_router",
+  "dimension": "minecraft:overworld",
+  "target": "vein_toggle",
+  "wrapper_function": 0.0
+}

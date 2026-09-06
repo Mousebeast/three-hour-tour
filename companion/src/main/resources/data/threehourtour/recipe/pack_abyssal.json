@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:core_abyssal"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:pack_abyssal"
+    }
+  ],
+  "type": "create:splashing"
+}

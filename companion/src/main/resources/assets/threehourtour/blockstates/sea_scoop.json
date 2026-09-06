@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "threehourtour:block/sea_scoop" },
+    "facing=east":  { "model": "threehourtour:block/sea_scoop", "y": 90 },
+    "facing=south": { "model": "threehourtour:block/sea_scoop", "y": 180 },
+    "facing=west":  { "model": "threehourtour:block/sea_scoop", "y": 270 }
+  }
+}

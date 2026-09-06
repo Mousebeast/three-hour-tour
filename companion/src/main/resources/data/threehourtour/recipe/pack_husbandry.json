@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:core_husbandry"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "threehourtour:pack_husbandry"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  },
+  "type": "farmersdelight:cutting"
+}

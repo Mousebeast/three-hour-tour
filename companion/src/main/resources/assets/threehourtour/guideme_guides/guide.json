@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "threehourtour.guide.title"
+    },
+    "tooltip_lines": [
+      {
+        "text": "What is true on this ocean",
+        "color": "dark_gray"
+      }
+    ]
+  }
+}

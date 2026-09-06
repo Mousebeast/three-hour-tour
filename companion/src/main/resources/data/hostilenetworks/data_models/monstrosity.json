@@ -1,0 +1,23 @@
+{
+  "entity": "cataclysm:netherite_ministrosity",
+  "variants": [],
+  "name_color": "#6b4f3f",
+  "sim_cost": 768,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.monstrosity",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:ancient_debris",
+      "count": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 8
+    }
+  ]
+}

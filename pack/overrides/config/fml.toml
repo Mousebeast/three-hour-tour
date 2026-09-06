@@ -1,0 +1,18 @@
+#Enable NeoForge global version checking
+#
+#Off on purpose. With it on, NeoForge draws an animated update indicator over
+#the Mods button whenever any mod reports a newer version -- and this pack
+#retextures that button, so the indicator lands on top of our art and there is
+#no layout property that can move or hide it, because it is drawn by NeoForge
+#rather than by a widget FancyMenu can see.
+#
+#The notification is worth little here in any case: the mod set is pinned by
+#pack/manifest.json, so a player updating one mod underneath it is a way to
+#break the pack rather than a way to improve it. Updates travel by a new pack
+#build.
+#
+#This file is deliberately partial. FMLConfig fills every key it does not find
+#with its own default and writes the complete file back on first launch, the
+#same way FancyMenu's options.txt works -- so this is one decision, not a
+#snapshot of every FML setting we have no opinion about.
+versionCheck = false

@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "animalhusbandry:cheese_slice"
+    },
+    "B": {
+      "item": "animalhusbandry:cooked_chevon"
+    },
+    "C": {
+      "item": "animalhusbandry:fried_egg"
+    },
+    "D": {
+      "item": "animalhusbandry:truffle"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_husbandry"
+  },
+  "type": "minecraft:crafting_shaped"
+}

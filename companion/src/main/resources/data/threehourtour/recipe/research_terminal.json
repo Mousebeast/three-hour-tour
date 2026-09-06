@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "threehourtour:treated_planks" },
+    "B": { "item": "ftbquests:book" },
+    "L": { "item": "minecraft:lapis_block" }
+  },
+  "pattern": [ "PPP", "PBP", "PLP" ],
+  "result": { "id": "threehourtour:research_terminal", "count": 1 }
+}

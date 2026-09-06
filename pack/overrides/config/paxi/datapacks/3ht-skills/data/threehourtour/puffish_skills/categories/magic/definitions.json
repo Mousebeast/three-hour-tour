@@ -1,0 +1,317 @@
+{
+  "reservoir_1": {
+    "title": "Reservoir 1",
+    "description": "Hold more mana.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 20.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reservoir_2": {
+    "title": "Reservoir 2",
+    "description": "Hold more mana.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 20.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reservoir_3": {
+    "title": "Reservoir 3",
+    "description": "Hold more mana.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 20.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reservoir_4": {
+    "title": "Reservoir 4",
+    "description": "Hold more mana.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 20.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "wellspring_1": {
+    "title": "Wellspring 1",
+    "description": "Get it back faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "wellspring_2": {
+    "title": "Wellspring 2",
+    "description": "Get it back faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "wellspring_3": {
+    "title": "Wellspring 3",
+    "description": "Get it back faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "focus_1": {
+    "title": "Focus 1",
+    "description": "Spells land harder, whatever the school.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "focus_2": {
+    "title": "Focus 2",
+    "description": "Spells land harder, whatever the school.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "focus_3": {
+    "title": "Focus 3",
+    "description": "Spells land harder, whatever the school.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "cadence_1": {
+    "title": "Cadence 1",
+    "description": "Cast again sooner.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "cadence_2": {
+    "title": "Cadence 2",
+    "description": "Cast again sooner.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "cadence_3": {
+    "title": "Cadence 3",
+    "description": "Cast again sooner.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "incant_1": {
+    "title": "Incantation 1",
+    "description": "Shorter casts.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "incant_2": {
+    "title": "Incantation 2",
+    "description": "Shorter casts.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  }
+}

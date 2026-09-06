@@ -1,0 +1,23 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "B": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "C": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "pattern": [
+    "AAB",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_abyssal"
+  },
+  "type": "minecraft:crafting_shaped"
+}

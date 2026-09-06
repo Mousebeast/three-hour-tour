@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": { "item": "minecraft:stick" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "minecraft:chest" }
+  },
+  "pattern": [ "SIS", "S S", "SCS" ],
+  "result": { "id": "threehourtour:sea_scoop", "count": 1 }
+}

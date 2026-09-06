@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Functional Storage",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "functionalstorage"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

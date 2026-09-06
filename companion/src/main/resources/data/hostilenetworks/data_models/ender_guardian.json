@@ -1,0 +1,25 @@
+{
+  "entity": "cataclysm:ender_golem",
+  "variants": [
+    "cataclysm:endermaptera"
+  ],
+  "name_color": "#b06cf0",
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.ender_guardian",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:end_stone",
+      "count": 8
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "count": 4
+    }
+  ]
+}

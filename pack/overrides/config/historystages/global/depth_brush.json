@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Ruin Archaeology",
+  "items": [
+    "create_aquatic_ambitions:suspicious_rock",
+    "minecraft:brush"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

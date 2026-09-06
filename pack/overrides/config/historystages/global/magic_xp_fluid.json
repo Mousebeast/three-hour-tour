@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Liquid Experience",
+  "items": [
+    "create_enchantment_industry:blaze_enchanter",
+    "create_enchantment_industry:classic_blaze_enchanter",
+    "create_enchantment_industry:experience_bucket"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

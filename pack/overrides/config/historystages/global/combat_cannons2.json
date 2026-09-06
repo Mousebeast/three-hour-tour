@@ -1,0 +1,19 @@
+{
+  "dimensions": [],
+  "display_name": "Heavy Ordnance",
+  "items": [
+    "createbigcannons:built_up_nethersteel_cannon_barrel",
+    "createbigcannons:built_up_steel_cannon_barrel",
+    "createbigcannons:nethersteel_cannon_barrel",
+    "createbigcannons:steel_cannon_barrel"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "cbc_at"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

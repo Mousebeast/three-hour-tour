@@ -1,0 +1,191 @@
+[general]
+	#Convert overflow hydration into quenched bonus
+	extraHydrationConvertsToQuenched = true
+	#Allow thirst to deplete in Peaceful difficulty
+	thirstDepletesInPeaceful = false
+	#Allow players to drink rain water by looking up while it rains
+	drinkRainWater = false
+	#Deplete thirst faster while the player has the Nausea effect
+	depletesWhenNausea = true
+	#Prevent sprinting when thirst is at or below the sprint threshold
+	sprintPrevention = true
+	#Thirst value (0-20) at or below which sprinting is blocked (6 = 3 droplets)
+	# Default: 6
+	# Range: 0 ~ 20
+	sprintThreshold = 6
+	#Prevent natural health regeneration while the thirst bar is not full
+	dehydrationHaltsHealthRegen = true
+	#List of effects that completely suspend all thirst mechanics.
+	#While active, the thirst level remains frozen, the player is immune to dehydration damage,
+	#and sprinting is not blocked by low thirst.
+	#Format: 'effect_id' or 'effect_id operator amplifier'
+	#  - 'effect_id': Matches the effect at any level (e.g. 'minecraft:invisibility')
+	#  - 'effect_id operator amplifier': Matches based on effect level (0-indexed, i.e., 0 = level I, 1 = level II, etc.)
+	#    Supported operators: >=, <=, ==, >, <, =
+	#    Example: 'minecraft:speed >= 1' (matches Speed II or higher)
+	# 3ht: emptied 2026-09-02. Named tombstone:ghostly_shape, and Tombstone is
+	# not in this pack.
+	suspendThirstEffects = []
+	#List of effects that only pause thirst depletion (exhaustion from movement, etc.).
+	#Unlike suspend, the thirst system remains active: player can still drink, receive regeneration,
+	#sprint can still be blocked, and dehydration damage is still dealt if thirst is already at 0.
+	#Format: 'effect_id' or 'effect_id operator amplifier'
+	#  - 'effect_id': Matches the effect at any level (e.g. 'farmersdelight:nourishment')
+	#  - 'effect_id operator amplifier': Matches based on effect level (0-indexed, i.e., 0 = level I, 1 = level II, etc.)
+	#    Supported operators: >=, <=, ==, >, <, =
+	#    Example: 'farmersdelight:nourishment >= 0'
+	# 3ht: trimmed 2026-09-02 to the one effect this pack actually grants.
+	# Bakery and Farm & Charm are not staged here. Nourishment stays: a good
+	# meal buying five minutes of no thirst drain is the reward for cooking.
+	pauseDepletionEffects = ["farmersdelight:nourishment"]
+	#List of effects that regenerate thirst.
+	#Format: 'effect_id' or 'effect_id operator amplifier'
+	#  - 'effect_id': Matches the effect at any level (e.g. 'farmersdelight:nourishment')
+	#  - 'effect_id operator amplifier': Matches based on effect level (0-indexed, i.e., 0 = level I, 1 = level II, etc.)
+	#    Supported operators: >=, <=, ==, >, <, =
+	#    Example: 'minecraft:regeneration >= 0'
+	# 3ht: EMPTIED 2026-09-02, and this is a design decision rather than
+	# tidying. Nourishment here restored 1 thirst per 40 ticks for the whole
+	# effect, so one Pumpkin Soup (6000 ticks) was 150 points against a
+	# 20-point bar -- seven and a half bars from one bowl, on top of pausing
+	# depletion outright. The Cooking Pot unlocks at Ship's Galley, tier 1,
+	# and Fresh Water is tier 2 behind it, so cooking removed thirst before
+	# research could ever solve it. Cooking buys time; it does not buy water.
+	# Enforced by tools/audit-thirst-config.py.
+	regenThirstEffects = []
+	#Interval in ticks between thirst regeneration ticks when a regen effect is active
+	# Default: 40
+	# Range: 1 ~ 72000
+	regenThirstInterval = 40
+	#Amount of thirst restored per regeneration tick
+	# Default: 1
+	# Range: 1 ~ 20
+	regenThirstAmount = 1
+	#Enable debug logging (advancements, hand drinking, purity, etc.)
+	debugLogging = false
+
+[effects]
+	#Base thirst restored by Hydration each tick per effect level
+	# Default: 1
+	# Range: 0 ~ 20
+	hydrationEffectThirstPerTick = 1
+	#Base quenched restored by Hydration each tick per effect level
+	# Default: 1
+	# Range: 0 ~ 20
+	hydrationEffectQuenchedPerTick = 1
+	#Base thirst exhaustion added by Thirsty each tick per effect level
+	# Default: 0.005
+	# Range: 0.0 ~ 4.0
+	thirstyEffectExhaustionPerTick = 0.005
+
+[dehydration]
+	#Amount of damage dealt when dehydrated
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	dehydrationDamage = 1.0
+	#Interval in ticks between dehydration damage ticks
+	# Default: 40
+	# Range: 1 ~ 72000
+	damageIntervalTicks = 40
+	#Minimum health remaining on Easy difficulty when taking dehydration damage
+	# Default: 10.0
+	# Range: 0.0 ~ 20.0
+	dehydrationDamageEasyLimit = 10.0
+	#Minimum health remaining on Normal difficulty when taking dehydration damage
+	# Default: 0.0
+	# Range: 0.0 ~ 20.0
+	dehydrationDamageNormalLimit = 0.0
+	#Minimum health remaining on Hard difficulty when taking dehydration damage
+	# Default: 0.0
+	# Range: 0.0 ~ 20.0
+	dehydrationDamageHardLimit = 0.0
+
+[depletion]
+	#Thirst depletion speed relative to hunger (1.0 = same speed)
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	thirstDepletionModifier = 1.2
+	#Thirst depletion speed multiplier in ultra-warm dimensions (Nether)
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	netherThirstDepletionModifier = 3.0
+	#Depletion speed multiplier when Fire Resistance is active (0.0 = no depletion)
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	fireResistanceDehydrationModifier = 0.0
+	#Use biome temperature and humidity to adjust thirst depletion outside ultra-warm dimensions
+	biomeDehydrationModifier = true
+	#Reduce thirst depletion based on armor Fire Protection enchantment levels
+	fireProtectionDehydrationModifier = true
+	#How strongly cool or humid biomes reduce dehydration when biome modifiers are enabled
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	environmentModifierHarshness = 0.5
+
+[purity]
+	#Default purity for water items that lack a Purity NBT tag (0=dirty, 1=slightly dirty, 2=acceptable, 3=purified)
+	# Default: 2
+	# Range: 0 ~ 3
+	defaultPurity = 2
+	#Grant hydration even if the player received a purity-related debuff
+	quenchWhenDebuffed = true
+	#Chance (0.0-1.0) of getting Nausea+Hunger+Thirsty after drinking dirty water
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	dirtyNauseaChance = 1.0
+	#Chance (0.0-1.0) of getting Poison after drinking dirty water
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	dirtyPoisonChance = 0.3
+	#Chance of Nausea+Hunger+Thirsty from slightly dirty water
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	slightlyDirtyNauseaChance = 0.5
+	#Chance of Poison from slightly dirty water
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	slightlyDirtyPoisonChance = 0.1
+	#Chance of Nausea+Hunger+Thirsty from acceptable water
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	acceptableNauseaChance = 0.05
+	#Chance of Poison from acceptable water
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	acceptablePoisonChance = 0.0
+	#Chance of Nausea+Hunger+Thirsty from purified water
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	purifiedNauseaChance = 0.0
+	#Chance of Poison from purified water
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	purifiedPoisonChance = 0.0
+
+[world]
+	#Y-level above which water gains +1 purity (mountain spring water)
+	# Default: 100
+	# Range: -64 ~ 320
+	mountainsY = 100
+	#Y-level below which water gains +1 purity (cave spring water)
+	# Default: 48
+	# Range: -64 ~ 320
+	cavesY = 48
+	#Purity levels added to non-source running water
+	# Default: 1
+	# Range: 0 ~ 3
+	runningWaterPurificationAmount = 1
+
+[handDrinking]
+	#Allow players to drink by shift-right-clicking water with an empty hand
+	canDrinkByHand = false
+	#Thirst restored when drinking by hand
+	# Default: 3
+	# Range: 0 ~ 20
+	handDrinkingThirst = 3
+	#Quenched bonus restored when drinking by hand
+	# Default: 2
+	# Range: 0 ~ 20
+	handDrinkingQuenched = 2
+	#Require both hands to be empty to drink by hand
+	drinkBothHandsNeeded = false

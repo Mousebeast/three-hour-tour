@@ -1,0 +1,25 @@
+{
+  "dimensions": [],
+  "display_name": "Storage Upgrades I",
+  "items": [
+    "sophisticatedstorage:basic_tier_upgrade",
+    "sophisticatedstorage:basic_to_copper_tier_upgrade",
+    "sophisticatedstorage:basic_to_iron_tier_upgrade",
+    "sophisticatedstorage:compacting_upgrade",
+    "sophisticatedstorage:copper_to_iron_tier_upgrade",
+    "sophisticatedstorage:feeding_upgrade",
+    "sophisticatedstorage:filter_upgrade",
+    "sophisticatedstorage:hopper_upgrade",
+    "sophisticatedstorage:jukebox_upgrade",
+    "sophisticatedstorage:magnet_upgrade",
+    "sophisticatedstorage:pickup_upgrade",
+    "sophisticatedstorage:void_upgrade"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

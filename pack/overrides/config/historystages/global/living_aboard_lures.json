@@ -1,0 +1,19 @@
+{
+  "dimensions": [],
+  "display_name": "Rod and Line",
+  "items": [
+    "create_integrated_farming:fishing_net",
+    "tide:bait",
+    "tide:fish_finder",
+    "tide:iron_bobber",
+    "tide:iron_fishing_rod",
+    "tide:iron_line"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,10 @@
+Special Elite
+Copyright (c) 2010 Brian J. Bonislawsky DBA Astigmatic (AOETI).
+Licensed under the Apache License, Version 2.0 — see APACHE-2.0.txt.
+
+Read out of the font's own name table rather than taken from a web page:
+the copyright and licence URL above are what the file itself declares.
+
+Shipped because the title screen is set in it and FancyMenu 3.9.9 renders
+TTF directly (SmoothFontManager). A player installing the pack gets the
+font with it; nothing is downloaded at runtime.

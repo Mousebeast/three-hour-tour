@@ -1,0 +1,20 @@
+{
+  "dimensions": [],
+  "display_name": "Precision Mechanisms",
+  "items": [
+    "create:clockwork_bearing",
+    "create:deployer",
+    "create:mechanical_arm",
+    "create:mechanical_crafter",
+    "create:precision_mechanism",
+    "create:rotation_speed_controller",
+    "create:sequenced_gearshift"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

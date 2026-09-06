@@ -1,0 +1,21 @@
+{
+  "dimensions": [],
+  "display_name": "Simulation Chamber",
+  "items": [
+    "hostilenetworks:end_prediction",
+    "hostilenetworks:fab_directive",
+    "hostilenetworks:loot_fabricator",
+    "hostilenetworks:nether_prediction",
+    "hostilenetworks:overworld_prediction",
+    "hostilenetworks:prediction",
+    "hostilenetworks:prediction_matrix",
+    "hostilenetworks:sim_chamber"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

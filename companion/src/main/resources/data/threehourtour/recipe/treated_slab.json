@@ -1,0 +1,5 @@
+{ "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [ "###" ],
+  "key": { "#": { "item": "threehourtour:treated_planks" } },
+  "result": { "id": "threehourtour:treated_slab", "count": 6 } }

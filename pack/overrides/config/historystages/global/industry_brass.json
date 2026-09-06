@@ -1,0 +1,19 @@
+{
+  "dimensions": [],
+  "display_name": "Brass Age",
+  "items": [
+    "create:blaze_burner",
+    "create:brass_casing",
+    "create:brass_funnel",
+    "create:brass_ingot",
+    "create:brass_sheet",
+    "create:brass_tunnel"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

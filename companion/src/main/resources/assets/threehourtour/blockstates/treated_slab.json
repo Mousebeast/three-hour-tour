@@ -1,0 +1,4 @@
+{ "variants": {
+    "type=bottom": { "model": "threehourtour:block/treated_slab" },
+    "type=top":    { "model": "threehourtour:block/treated_slab_top" },
+    "type=double": { "model": "threehourtour:block/treated_planks" } } }

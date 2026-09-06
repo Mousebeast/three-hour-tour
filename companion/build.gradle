@@ -1,0 +1,157 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.144'
+}
+
+version = "${mod_version}"
+group = "${mod_group_id}"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = "${neo_version}"
+    runs {
+        server { server() }
+        // Without this system property NeoForge does not enable this mod's
+        // GameTest namespace and the run reports zero tests.
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+    }
+    mods {
+        "${mod_id}" { sourceSet(sourceSets.main) }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.neoforged.net/releases' }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    def props = [minecraft_version: minecraft_version, neo_version: neo_version,
+                 mod_id: mod_id, mod_version: mod_version]
+    inputs.properties(props)
+    filesMatching('META-INF/neoforge.mods.toml') { expand(props) }
+}
+
+def sableJar  = file("${staged_mods_dir}/${sable_jar_file}")
+def kubejsJar = file("${staged_mods_dir}/${kubejs_jar_file}")
+def rhinoJar  = file("${staged_mods_dir}/${rhino_jar_file}")
+def ftbTeamsJar   = file("${staged_mods_dir}/${ftbteams_jar_file}")
+def ftbLibraryJar = file("${staged_mods_dir}/${ftblibrary_jar_file}")
+def ftbQuestsJar  = file("${staged_mods_dir}/${ftbquests_jar_file}")
+def gatewaysJar = file("${staged_mods_dir}/${gateways_jar_file}")
+def placeboJar  = file("${staged_mods_dir}/${placebo_jar_file}")
+def guidemeJar  = file("${staged_mods_dir}/${guideme_jar_file}")
+def sableLibs = layout.buildDirectory.dir('sable-libs')
+
+// These three jars are not on any public Maven repo - they come from the
+// staged 3ht server (see gradle.properties). Fail loudly and specifically
+// before the cryptic zipTree/javac error a missing file would otherwise
+// produce, since a fresh clone or a mod-version bump breaks this silently
+// otherwise.
+tasks.register('verifyStagedJars') {
+    doFirst {
+        [sableJar, kubejsJar, rhinoJar, ftbTeamsJar, ftbLibraryJar, ftbQuestsJar,
+         gatewaysJar, placeboJar, guidemeJar].each { jar ->
+            if (!jar.exists()) {
+                throw new GradleException(
+                    "Missing staged mod jar: ${jar}\n" +
+                    "This build compiles against jars staged for the live 3ht server " +
+                    "(see gradle.properties: staged_mods_dir/sable_jar_file/" +
+                    "kubejs_jar_file/rhino_jar_file/ftbteams_jar_file/" +
+                    "ftblibrary_jar_file). Either get read access to " +
+                    "${staged_mods_dir}, or repoint these properties at a local copy " +
+                    "of the matching jar version."
+                )
+            }
+        }
+    }
+}
+
+// Sable's public API types (SubLevelAccess, math/Pose3d, etc.) live in a jar-in-jar
+// companion jar (META-INF/jarjar/sable-companion-common-*.jar), not in the outer jar.
+// NeoForge extracts jar-in-jar dependencies at runtime, but compileOnly on the outer
+// jar alone does not expose nested jars to javac, so we extract it into build/ (never
+// committed) and add it to the compile classpath alongside the outer jar.
+tasks.register('extractSableCompanion', Copy) {
+    dependsOn 'verifyStagedJars'
+    from(zipTree(sableJar)) {
+        include 'META-INF/jarjar/sable-companion-common-*.jar'
+        eachFile { it.relativePath = new RelativePath(true, it.name) }
+    }
+    into sableLibs
+    includeEmptyDirs = false
+}
+
+tasks.named('compileJava') { dependsOn 'extractSableCompanion', 'verifyStagedJars' }
+
+// 'localRuntime' puts a dependency on the dev *run* classpath (client/server/
+// gameTestServer) without publishing it and without bundling it into our jar -
+// same pattern used by the itav mod for its own soft Sable dependency. Sable's
+// neoforge.mods.toml declares only NeoForge and Minecraft as required
+// dependencies (Flywheel/Create are optional and CLIENT-only), so loading it
+// headless on gameTestServer needs nothing else. This is what makes the
+// GameTest run mod-loading-valid: threehourtour declares sable required in
+// its own neoforge.mods.toml, so without Sable present the whole server
+// refuses to start before any test executes - not merely a
+// NoClassDefFoundError inside VesselLookup.
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+// Unit tests (VesselLookupTest) reference Minecraft parameter types (Level,
+// BlockPos) even when passing null literals - javac still needs the class
+// files to resolve the method signature. ModDevGradle wires the Minecraft/
+// NeoForge artifacts onto the main sourceSet's compile classpath only, so
+// extend test's classpath with it here rather than duplicating dependencies.
+sourceSets {
+    test {
+        compileClasspath += sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.compileClasspath
+    }
+}
+
+dependencies {
+    // Sable: supplied at runtime by the pack. compileOnly so it is never bundled.
+    // Not on any public Maven, hence the absolute local path.
+    compileOnly files(sableJar)
+    // Sable's companion API jar, extracted from the outer jar's jar-in-jar at build time.
+    compileOnly fileTree(dir: sableLibs, include: '*.jar')
+    // Same jar, added to the dev run classpath only (see localRuntime note above).
+    localRuntime files(sableJar)
+
+    // KubeJS: optional integration (Task 5). Also runtime-supplied.
+    compileOnly files(kubejsJar)
+    compileOnly files(rhinoJar)
+
+    // FTB Teams: optional integration (teammate resolution). Runtime-supplied.
+    // ftb-library comes with it because TeamManager's signatures reference it.
+    compileOnly files(ftbTeamsJar)
+    compileOnly files(ftbLibraryJar)
+
+    // FTB Quests: optional integration (the research terminal). Runtime-supplied.
+    // Only dev.ftb.mods.ftbquests.api is formal API; the rest of what the
+    // terminal touches (ItemTask, TeamData, Quest, BaseQuestFile) is internal,
+    // which is why the manifest pins an exact file id and every entry point is
+    // guarded by ModList.isLoaded - see research/QuestBridge.
+    compileOnly files(ftbQuestsJar)
+
+    // Gateways to Eternity: the gate loop's own mod. compileOnly - it is
+    // supplied at runtime by the pack, exactly like Sable and FTB Quests.
+    // Placebo comes with it because GatewayEntity's field signatures
+    // reference DynamicHolder and javac resolves supertypes eagerly.
+    compileOnly files(gatewaysJar)
+    compileOnly files(placeboJar)
+
+    // GuideME: the guidebook. compileOnly -- the pack supplies it at runtime.
+    // Only GuideKeybind touches it, and only on the client; the guide's pages
+    // themselves are resources and need no code at all.
+    compileOnly files(guidemeJar)
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+tasks.named('test', Test).configure { useJUnitPlatform() }

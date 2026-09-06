@@ -1,0 +1,16 @@
+# Partial on purpose. NeoForge's config spec fills every key it does not find
+# with History Stages' own default and writes the complete file back on first
+# load, the same way FancyMenu's options.txt, fml.toml and the Create and
+# Supplementaries client configs do. One decision lives here.
+
+[messages]
+	#Show a welcome message in chat when a player joins the world? [Default: true]
+	#
+	#Off. This pack sends its own four lines on first join -- pull the lever,
+	#the chest, the guidebook key, the research terminal -- and a second
+	#greeting from a mod the player has no reason to have heard of lands on top
+	#of them. History Stages is the machinery behind the research tree here, not
+	#a thing the player is meant to think about: the tree is FTB Quests, its own
+	#UI is switched off in historystages-client.toml, and this is the last place
+	#it introduced itself by name.
+	showWelcomeMessage = false

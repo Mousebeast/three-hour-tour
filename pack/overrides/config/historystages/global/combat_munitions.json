@@ -1,0 +1,23 @@
+{
+  "dimensions": [],
+  "display_name": "Munitions Line",
+  "items": [
+    "createbigcannons:ap_shell",
+    "createbigcannons:ap_shot",
+    "createbigcannons:autocannon_cartridge",
+    "createbigcannons:bag_of_grapeshot",
+    "createbigcannons:drop_mortar_shell",
+    "createbigcannons:fluid_shell",
+    "createbigcannons:he_shell",
+    "createbigcannons:shrapnel_shell",
+    "createbigcannons:smoke_shell",
+    "createbigcannons:solid_shot"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

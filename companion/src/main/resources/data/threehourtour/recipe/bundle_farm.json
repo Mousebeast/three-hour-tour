@@ -1,0 +1,24 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "farmersdelight:vegetable_noodles"
+    },
+    "B": {
+      "item": "farmersdelight:vegetable_soup"
+    },
+    "C": {
+      "item": "farmersdelight:ratatouille"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAB",
+    "BCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_farm"
+  },
+  "type": "minecraft:crafting_shaped"
+}

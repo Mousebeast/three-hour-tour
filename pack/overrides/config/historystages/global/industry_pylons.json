@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Pylon Fields",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "more_pylons",
+    "pylons"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

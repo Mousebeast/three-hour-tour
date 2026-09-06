@@ -1,0 +1,191 @@
+{
+  "type": "gateways:normal",
+  "size": "medium",
+  "color": "#8AB4F8",
+  "waves": [
+    {
+      "max_wave_time": 800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:zombie"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombie",
+          "rolls": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "max_wave_time": 800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:skeleton",
+          "rolls": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "max_wave_time": 800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 5,
+          "entity": "minecraft:creeper"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:creeper",
+          "rolls": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "max_wave_time": 800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 5,
+          "entity": "minecraft:spider"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:spider",
+          "rolls": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "max_wave_time": 800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 6,
+          "entity": "minecraft:drowned"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:drowned",
+          "rolls": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 10
+      }
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "minecraft:ender_pearl",
+        "count": 5
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{ "replace": false,
+  "values": [ "threehourtour:treated_planks", "threehourtour:treated_slab",
+              "threehourtour:treated_stairs", "threehourtour:research_terminal" ] }

@@ -1,0 +1,22 @@
+{
+  "dimensions": [],
+  "display_name": "Gem Cutting and Sigils",
+  "items": [
+    "apotheosis:gem_cutting_table",
+    "apotheosis:gem_dust",
+    "apotheosis:sigil_of_enhancement",
+    "apotheosis:sigil_of_malice",
+    "apotheosis:sigil_of_rebirth",
+    "apotheosis:sigil_of_socketing",
+    "apotheosis:sigil_of_supremacy",
+    "apotheosis:sigil_of_unnaming",
+    "apotheosis:sigil_of_withdrawal"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

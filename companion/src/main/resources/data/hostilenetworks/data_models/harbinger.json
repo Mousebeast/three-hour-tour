@@ -1,0 +1,25 @@
+{
+  "entity": "cataclysm:the_prowler",
+  "variants": [
+    "cataclysm:the_watcher"
+  ],
+  "name_color": "#4b3f6b",
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.harbinger",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:coal",
+      "count": 16
+    },
+    {
+      "id": "minecraft:bone",
+      "count": 16
+    }
+  ]
+}

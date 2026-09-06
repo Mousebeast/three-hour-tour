@@ -1,0 +1,25 @@
+{
+  "entity": "cataclysm:ignited_revenant",
+  "variants": [
+    "cataclysm:ignited_berserker"
+  ],
+  "name_color": "#ff7a1a",
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.ignis",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:nether_wart",
+      "count": 12
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "count": 8
+    }
+  ]
+}

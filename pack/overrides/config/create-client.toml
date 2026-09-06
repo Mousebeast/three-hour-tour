@@ -1,0 +1,19 @@
+#Partial on purpose. NeoForge's config spec fills every key it does not find
+#with Create's own default and writes the complete file back on first launch,
+#the same way FancyMenu's options.txt and fml.toml work.
+
+[client]
+	#Choose the menu row that the Create config button appears on in the main menu
+	#Set to 0 to disable the button altogether
+	#
+	#Zero: this pack draws its own title screen, and a mod's config button on
+	#it is a second, unstyled voice in a composition that has exactly one.
+	#Turned off here rather than hidden in the FancyMenu layout because
+	#FancyMenu has no name for this button -- it is not in the title screen's
+	#identification table, so the editor falls back to identifying it by its
+	#x and y, which is only correct at the resolution and GUI scale it was
+	#captured at. Switching it off at the source works everywhere.
+	#
+	#This is the main menu only. Create's in-game menu button is untouched,
+	#because the pause screen is not ours to compose.
+	mainMenuConfigButtonRow = 0

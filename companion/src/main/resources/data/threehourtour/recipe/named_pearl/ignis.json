@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "threehourtour_named_pearls",
+  "pattern": [
+    "AAA",
+    "APA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "threehourtour:ash"
+    },
+    "P": {
+      "type": "neoforge:components",
+      "items": [
+        "gateways:gate_pearl"
+      ],
+      "components": {
+        "gateways:gateway": "threehourtour:hunt/ignis_mk3"
+      }
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "threehourtour:named/ignis"
+}

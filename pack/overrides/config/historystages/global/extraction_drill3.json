@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Drilling Rig III",
+  "items": [
+    "createoreexcavation:netherite_drill"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "dimensions": [],
+  "display_name": "Generation Age",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [
+    "create_new_age:advanced_motor",
+    "create_new_age:basic_energiser"
+  ],
+  "mods": [
+    "create_new_age",
+    "powergrid"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMin": 1.0,
+  "amountMultiplierMax": 4.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "createpropulsion:raw_platinum"
+  },
+  "name": "{\"text\": \"Platinum\"}",
+  "placement": {
+    "salt": 800210029,
+    "separation": 64,
+    "spacing": 256
+  },
+  "priority": 0
+}

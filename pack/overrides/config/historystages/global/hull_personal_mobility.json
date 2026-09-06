@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Grapples and Gliders",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "hangglider",
+    "hooked"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

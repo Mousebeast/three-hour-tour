@@ -1,0 +1,63 @@
+{
+  "type": "gateways:normal",
+  "size": "large",
+  "color": "#F28B82",
+  "waves": [
+    {
+      "max_wave_time": 3600,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "cataclysm:maledictus"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.25
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.25
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:maledictus",
+          "rolls": 1
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 12
+      }
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:trophy_maledictus",
+        "count": 1
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

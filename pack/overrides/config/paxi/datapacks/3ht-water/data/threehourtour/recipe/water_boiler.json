@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "F": { "item": "minecraft:furnace" }
+  },
+  "pattern": [ "III", "IFI", "III" ],
+  "result": { "id": "yet_another_thirst:water_boiler", "count": 1 }
+}

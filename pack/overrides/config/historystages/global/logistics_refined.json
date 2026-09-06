@@ -1,0 +1,19 @@
+{
+  "dimensions": [],
+  "display_name": "Refined Storage",
+  "items": [
+    "refinedstorage:controller",
+    "refinedstorage:crafting_grid",
+    "refinedstorage:disk_drive",
+    "refinedstorage:grid",
+    "refinedstorage:network_receiver",
+    "refinedstorage:network_transmitter"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

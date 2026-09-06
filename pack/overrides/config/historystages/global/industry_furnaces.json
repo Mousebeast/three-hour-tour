@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Furnace Tiers",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "ironfurnaces"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Sponge Works",
+  "items": [
+    "minecraft:sponge",
+    "minecraft:wet_sponge"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

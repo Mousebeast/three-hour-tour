@@ -1,0 +1,78 @@
+{
+  "type": "gateways:normal",
+  "size": "small",
+  "color": "#8AB4F8",
+  "waves": [
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "cataclysm:the_watcher"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_watcher",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "cataclysm:the_prowler"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_prowler",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:wither_skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 2
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 4
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

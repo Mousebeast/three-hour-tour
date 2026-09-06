@@ -1,0 +1,18 @@
+{
+  "dimensions": [],
+  "display_name": "Neural Models",
+  "items": [
+    "hostilenetworks:blank_data_model",
+    "hostilenetworks:data_center",
+    "hostilenetworks:data_center_io_port",
+    "hostilenetworks:data_model",
+    "hostilenetworks:deep_learner"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

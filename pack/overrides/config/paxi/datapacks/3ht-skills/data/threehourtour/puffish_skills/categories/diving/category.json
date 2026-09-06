@@ -1,0 +1,20 @@
+{
+  "title": "Diving",
+  "description": "Everything below the surface. The pack's signature problem, and the one place vanilla gives you nothing.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/deepslate.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "erase_on_death": false,
+  "starting_points": 0
+}

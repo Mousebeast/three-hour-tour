@@ -1,0 +1,109 @@
+{
+  "strike_1": {
+    "definition": "strike_1",
+    "x": 26,
+    "y": 0,
+    "root": true
+  },
+  "strike_2": {
+    "definition": "strike_2",
+    "x": 52,
+    "y": 0
+  },
+  "strike_3": {
+    "definition": "strike_3",
+    "x": 78,
+    "y": 0
+  },
+  "strike_4": {
+    "definition": "strike_4",
+    "x": 104,
+    "y": 0
+  },
+  "opening_1": {
+    "definition": "opening_1",
+    "x": 26,
+    "y": 26,
+    "root": true
+  },
+  "opening_2": {
+    "definition": "opening_2",
+    "x": 52,
+    "y": 26
+  },
+  "opening_3": {
+    "definition": "opening_3",
+    "x": 78,
+    "y": 26
+  },
+  "followthrough_1": {
+    "definition": "followthrough_1",
+    "x": 26,
+    "y": 52,
+    "root": true
+  },
+  "followthrough_2": {
+    "definition": "followthrough_2",
+    "x": 52,
+    "y": 52
+  },
+  "followthrough_3": {
+    "definition": "followthrough_3",
+    "x": 78,
+    "y": 52
+  },
+  "leeching_1": {
+    "definition": "leeching_1",
+    "x": 26,
+    "y": 78,
+    "root": true
+  },
+  "leeching_2": {
+    "definition": "leeching_2",
+    "x": 52,
+    "y": 78
+  },
+  "draw_1": {
+    "definition": "draw_1",
+    "x": 26,
+    "y": 122,
+    "root": true
+  },
+  "draw_2": {
+    "definition": "draw_2",
+    "x": 52,
+    "y": 122
+  },
+  "draw_3": {
+    "definition": "draw_3",
+    "x": 78,
+    "y": 122
+  },
+  "shaft_1": {
+    "definition": "shaft_1",
+    "x": 26,
+    "y": 148,
+    "root": true
+  },
+  "shaft_2": {
+    "definition": "shaft_2",
+    "x": 52,
+    "y": 148
+  },
+  "shaft_3": {
+    "definition": "shaft_3",
+    "x": 78,
+    "y": 148
+  },
+  "flight_1": {
+    "definition": "flight_1",
+    "x": 26,
+    "y": 174,
+    "root": true
+  },
+  "flight_2": {
+    "definition": "flight_2",
+    "x": 52,
+    "y": 174
+  }
+}

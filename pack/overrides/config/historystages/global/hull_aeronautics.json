@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Aeronautic Frames",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "aeroworks"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

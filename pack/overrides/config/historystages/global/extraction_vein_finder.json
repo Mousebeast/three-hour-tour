@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Vein Finder",
+  "items": [
+    "createoreexcavation:sample_drill",
+    "createoreexcavation:vein_finder"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

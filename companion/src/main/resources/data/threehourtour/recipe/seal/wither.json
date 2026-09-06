@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "threehourtour_seals",
+  "ingredients": [
+    {
+      "item": "threehourtour:trophy_wither"
+    }
+  ],
+  "result": {
+    "id": "threehourtour:seal_alpha",
+    "count": 1
+  }
+}

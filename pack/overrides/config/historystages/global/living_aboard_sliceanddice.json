@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Slice and Dice",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "sliceanddice"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

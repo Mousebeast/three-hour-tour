@@ -1,0 +1,30 @@
+{
+  "entity": "irons_spellbooks:archevoker",
+  "variants": [
+    "irons_spellbooks:necromancer",
+    "irons_spellbooks:cultist",
+    "irons_spellbooks:pyromancer",
+    "irons_spellbooks:cryomancer",
+    "irons_spellbooks:apothecarist",
+    "irons_spellbooks:priest"
+  ],
+  "name_color": "#c084fc",
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.mage_covenant",
+  "fabricator_drops": [
+    {
+      "id": "irons_spellbooks:arcane_essence",
+      "count": 16
+    },
+    {
+      "id": "irons_spellbooks:common_ink",
+      "count": 8
+    }
+  ]
+}

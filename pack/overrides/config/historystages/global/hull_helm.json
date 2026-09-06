@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Ship's Helm",
+  "items": [
+    "createthrusters:advanced_contraption_controller"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

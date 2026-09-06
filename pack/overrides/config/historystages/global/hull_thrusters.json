@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Thruster Array",
+  "items": [
+    "createthrusters:thruster",
+    "createthrusters:thruster_bearing",
+    "createthrusters:thruster_lense"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,81 @@
+{
+  "lungs_1": {
+    "definition": "lungs_1",
+    "x": 26,
+    "y": 0,
+    "root": true
+  },
+  "lungs_2": {
+    "definition": "lungs_2",
+    "x": 52,
+    "y": 0
+  },
+  "lungs_3": {
+    "definition": "lungs_3",
+    "x": 78,
+    "y": 0
+  },
+  "kick_1": {
+    "definition": "kick_1",
+    "x": 26,
+    "y": 26,
+    "root": true
+  },
+  "kick_2": {
+    "definition": "kick_2",
+    "x": 52,
+    "y": 26
+  },
+  "kick_3": {
+    "definition": "kick_3",
+    "x": 78,
+    "y": 26
+  },
+  "kick_4": {
+    "definition": "kick_4",
+    "x": 104,
+    "y": 26
+  },
+  "quarrying_1": {
+    "definition": "quarrying_1",
+    "x": 26,
+    "y": 52,
+    "root": true
+  },
+  "quarrying_2": {
+    "definition": "quarrying_2",
+    "x": 52,
+    "y": 52
+  },
+  "quarrying_3": {
+    "definition": "quarrying_3",
+    "x": 78,
+    "y": 52
+  },
+  "quarrying_4": {
+    "definition": "quarrying_4",
+    "x": 104,
+    "y": 52
+  },
+  "stroke_1": {
+    "definition": "stroke_1",
+    "x": 26,
+    "y": 78,
+    "root": true
+  },
+  "stroke_2": {
+    "definition": "stroke_2",
+    "x": 52,
+    "y": 78
+  },
+  "stroke_3": {
+    "definition": "stroke_3",
+    "x": 78,
+    "y": 78
+  },
+  "stroke_4": {
+    "definition": "stroke_4",
+    "x": 104,
+    "y": 78
+  }
+}

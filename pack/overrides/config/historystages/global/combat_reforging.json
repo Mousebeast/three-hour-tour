@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Reforging and Salvage",
+  "items": [
+    "apotheosis:reforging_table",
+    "apotheosis:salvaging_table",
+    "apotheosis:simple_reforging_table"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

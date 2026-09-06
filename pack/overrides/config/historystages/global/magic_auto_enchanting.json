@@ -1,0 +1,18 @@
+{
+  "dimensions": [],
+  "display_name": "Automated Enchanting",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [
+    "create_enchantment_industry:blaze_enchanter",
+    "create_enchantment_industry:classic_blaze_enchanter",
+    "create_enchantment_industry:experience_bucket"
+  ],
+  "mods": [
+    "create_enchantment_industry"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

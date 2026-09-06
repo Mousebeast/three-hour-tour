@@ -1,0 +1,33 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dried_kelp"
+    },
+    "B": {
+      "item": "minecraft:seagrass"
+    },
+    "C": {
+      "item": "minecraft:cooked_cod"
+    },
+    "D": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "minecraft:clay_ball"
+    },
+    "F": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "pattern": [
+    "AAB",
+    "BCC",
+    "DEF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_trawl"
+  },
+  "type": "minecraft:crafting_shaped"
+}

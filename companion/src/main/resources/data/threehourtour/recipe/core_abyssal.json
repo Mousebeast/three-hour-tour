@@ -1,0 +1,20 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:bundle_abyssal"
+    },
+    {
+      "item": "threehourtour:bundle_abyssal"
+    },
+    {
+      "item": "threehourtour:bundle_abyssal"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:core_abyssal"
+    }
+  ],
+  "type": "create:mixing"
+}

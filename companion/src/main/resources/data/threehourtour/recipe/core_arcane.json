@@ -1,0 +1,32 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    },
+    {
+      "item": "threehourtour:bundle_arcane"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:core_arcane"
+    }
+  ],
+  "type": "create:mixing"
+}

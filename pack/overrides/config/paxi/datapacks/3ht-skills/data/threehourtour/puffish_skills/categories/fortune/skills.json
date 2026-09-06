@@ -1,0 +1,66 @@
+{
+  "luck_1": {
+    "definition": "luck_1",
+    "x": 26,
+    "y": 0,
+    "root": true
+  },
+  "luck_2": {
+    "definition": "luck_2",
+    "x": 52,
+    "y": 0
+  },
+  "luck_3": {
+    "definition": "luck_3",
+    "x": 78,
+    "y": 0
+  },
+  "learning_1": {
+    "definition": "learning_1",
+    "x": 26,
+    "y": 26,
+    "root": true
+  },
+  "learning_2": {
+    "definition": "learning_2",
+    "x": 52,
+    "y": 26
+  },
+  "learning_3": {
+    "definition": "learning_3",
+    "x": 78,
+    "y": 26
+  },
+  "bite_1": {
+    "definition": "bite_1",
+    "x": 26,
+    "y": 52,
+    "root": true
+  },
+  "bite_2": {
+    "definition": "bite_2",
+    "x": 52,
+    "y": 52
+  },
+  "bite_3": {
+    "definition": "bite_3",
+    "x": 78,
+    "y": 52
+  },
+  "leverage_1": {
+    "definition": "leverage_1",
+    "x": 26,
+    "y": 78,
+    "root": true
+  },
+  "leverage_2": {
+    "definition": "leverage_2",
+    "x": 52,
+    "y": 78
+  },
+  "leverage_3": {
+    "definition": "leverage_3",
+    "x": 78,
+    "y": 78
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "gateways:normal",
+  "size": "small",
+  "color": "#8AB4F8",
+  "waves": [
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "cataclysm:netherite_ministrosity"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:netherite_ministrosity",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "minecraft:piglin_brute"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:piglin_brute",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:piglin"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:piglin",
+          "rolls": 2
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 4
+      }
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:fire_sigil",
+        "count": 1
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

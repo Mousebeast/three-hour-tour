@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Survey Radar",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "create_radar"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,254 @@
+{
+  "luck_1": {
+    "title": "Luck 1",
+    "description": "Better rolls on anything that rolls a loot table.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "luck_2": {
+    "title": "Luck 2",
+    "description": "Better rolls on anything that rolls a loot table.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "luck_3": {
+    "title": "Luck 3",
+    "description": "Better rolls on anything that rolls a loot table.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "learning_1": {
+    "title": "Learning 1",
+    "description": "More experience from mobs and blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "learning_2": {
+    "title": "Learning 2",
+    "description": "More experience from mobs and blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "learning_3": {
+    "title": "Learning 3",
+    "description": "More experience from mobs and blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "bite_1": {
+    "title": "Bite 1",
+    "description": "Tools cut faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:mining_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "bite_2": {
+    "title": "Bite 2",
+    "description": "Tools cut faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:mining_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "bite_3": {
+    "title": "Bite 3",
+    "description": "Tools cut faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:mining_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "leverage_1": {
+    "title": "Leverage 1",
+    "description": "Stacks with Bite; they are separate stats.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "leverage_2": {
+    "title": "Leverage 2",
+    "description": "Stacks with Bite; they are separate stats.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "leverage_3": {
+    "title": "Leverage 3",
+    "description": "Stacks with Bite; they are separate stats.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  }
+}

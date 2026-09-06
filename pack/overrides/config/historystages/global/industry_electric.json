@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Electrification",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "createaddition"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

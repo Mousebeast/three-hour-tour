@@ -1,0 +1,13 @@
+{
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "threehourtour:core_farm"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:pack_farm"
+  },
+  "type": "farmersdelight:cooking"
+}

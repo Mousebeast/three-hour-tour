@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Integrated Farming",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [
+    "create_integrated_farming:fishing_net"
+  ],
+  "mods": [
+    "create_integrated_farming"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

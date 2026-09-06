@@ -1,0 +1,18 @@
+{
+  "dimensions": [],
+  "display_name": "Bulk Processing",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [
+    "create_aquatic_ambitions:mechanical_conduit",
+    "create_aquatic_ambitions:prismarine_alloy",
+    "create_aquatic_ambitions:suspicious_rock"
+  ],
+  "mods": [
+    "create_aquatic_ambitions"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,25 @@
+{
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AAB",
+    "BBC",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_foundry"
+  },
+  "type": "create:mechanical_crafting"
+}

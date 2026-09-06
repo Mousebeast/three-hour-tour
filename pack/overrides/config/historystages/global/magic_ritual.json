@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Ritual Bench",
+  "items": [
+    "irons_spellbooks:alchemist_cauldron",
+    "irons_spellbooks:arcane_anvil",
+    "irons_spellbooks:arcane_ingot"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

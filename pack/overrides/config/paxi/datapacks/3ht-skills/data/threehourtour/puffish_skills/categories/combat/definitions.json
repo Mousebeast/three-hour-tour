@@ -1,0 +1,422 @@
+{
+  "strike_1": {
+    "title": "Strike 1",
+    "description": "Hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "strike_2": {
+    "title": "Strike 2",
+    "description": "Hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "strike_3": {
+    "title": "Strike 3",
+    "description": "Hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "strike_4": {
+    "title": "Strike 4",
+    "description": "Hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "opening_1": {
+    "title": "Opening 1",
+    "description": "Crit more often.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "opening_2": {
+    "title": "Opening 2",
+    "description": "Crit more often.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "opening_3": {
+    "title": "Opening 3",
+    "description": "Crit more often.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "followthrough_1": {
+    "title": "Follow Through 1",
+    "description": "Crits hurt more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "followthrough_2": {
+    "title": "Follow Through 2",
+    "description": "Crits hurt more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "followthrough_3": {
+    "title": "Follow Through 3",
+    "description": "Crits hurt more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "leeching_1": {
+    "title": "Leeching 1",
+    "description": "Take a little back from what you hit.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:life_steal",
+          "value": 0.02,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "leeching_2": {
+    "title": "Leeching 2",
+    "description": "Take a little back from what you hit.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:life_steal",
+          "value": 0.02,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "draw_1": {
+    "title": "Draw 1",
+    "description": "Nock and loose faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "draw_2": {
+    "title": "Draw 2",
+    "description": "Nock and loose faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "draw_3": {
+    "title": "Draw 3",
+    "description": "Nock and loose faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "shaft_1": {
+    "title": "Shaft 1",
+    "description": "Arrows hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "shaft_2": {
+    "title": "Shaft 2",
+    "description": "Arrows hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "shaft_3": {
+    "title": "Shaft 3",
+    "description": "Arrows hit harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "flight_1": {
+    "title": "Flight 1",
+    "description": "Flatter arc, less lead over water.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_velocity",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "flight_2": {
+    "title": "Flight 2",
+    "description": "Flatter arc, less lead over water.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_velocity",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  }
+}

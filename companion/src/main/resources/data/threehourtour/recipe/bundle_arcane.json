@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "B": {
+      "item": "threehourtour:ash"
+    },
+    "C": {
+      "item": "irons_spellbooks:common_ink"
+    },
+    "D": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "E": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "ABB",
+    "CCC",
+    "DDE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_arcane"
+  },
+  "type": "minecraft:crafting_shaped"
+}

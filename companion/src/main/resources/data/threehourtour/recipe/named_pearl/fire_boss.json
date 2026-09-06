@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "threehourtour_named_pearls",
+  "pattern": [
+    "KAA",
+    "APA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "threehourtour:ash"
+    },
+    "P": {
+      "type": "neoforge:components",
+      "items": [
+        "gateways:gate_pearl"
+      ],
+      "components": {
+        "gateways:gateway": "threehourtour:hunt/mage_covenant_mk3"
+      }
+    },
+    "K": {
+      "item": "threehourtour:fire_sigil"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "threehourtour:named/fire_boss"
+}

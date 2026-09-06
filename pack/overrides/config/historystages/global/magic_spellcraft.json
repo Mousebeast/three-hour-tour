@@ -1,0 +1,19 @@
+{
+  "dimensions": [],
+  "display_name": "Spellcraft",
+  "items": [
+    "irons_spellbooks:diamond_spell_book",
+    "irons_spellbooks:gold_spell_book",
+    "irons_spellbooks:inscription_table",
+    "irons_spellbooks:iron_spell_book",
+    "irons_spellbooks:scroll",
+    "irons_spellbooks:scroll_forge"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

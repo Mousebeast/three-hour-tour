@@ -1,0 +1,12 @@
+{
+  "priority": 3000,
+  "selector": "threehourtour:treated_stairs",
+  "properties": {
+    "sable:mass": 0.25
+  },
+  "overrides": {
+    "type=double": {
+      "sable:mass": 0.5
+    }
+  }
+}

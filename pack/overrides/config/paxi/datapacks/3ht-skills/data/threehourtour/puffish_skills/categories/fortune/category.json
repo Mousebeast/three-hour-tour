@@ -1,0 +1,20 @@
+{
+  "title": "Fortune",
+  "description": "What the world gives back. Loot quality, experience, and getting through stone.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/deepslate.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "erase_on_death": false,
+  "starting_points": 0
+}

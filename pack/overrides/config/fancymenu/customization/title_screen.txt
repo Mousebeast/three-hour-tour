@@ -1,0 +1,184 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  is_enabled = true
+  render_custom_elements_behind_vanilla = false
+  randommode = false
+  randomonlyfirsttime = false
+  layout_index = 0
+  last_edited_time = 0
+}
+
+menu_background {
+  background_type = image
+  show_background = true
+  image_path = config/fancymenu/assets/backgrounds/title_dawn.jpg
+  repeat_texture = false
+  slide = false
+  parallax = false
+}
+
+element {
+  element_type = image
+  instance_identifier = 3ht_title
+  source = config/fancymenu/assets/title/title.png
+  anchor_point = top-left
+  x = 60
+  y = 84
+  width = 153
+  height = 139
+  stay_on_screen = false
+  sticky_anchor = false
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  fade_in = false
+  repeat_texture = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  label = 
+  anchor_point = top-right
+  x = -60
+  y = 135
+  width = 134
+  height = 19
+  backgroundnormal = config/fancymenu/assets/title/menu_singleplayer_normal.png
+  backgroundhovered = config/fancymenu/assets/title/menu_singleplayer_hover.png
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  stay_on_screen = false
+  sticky_anchor = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  label = 
+  anchor_point = top-right
+  x = -60
+  y = 158
+  width = 124
+  height = 19
+  backgroundnormal = config/fancymenu/assets/title/menu_multiplayer_normal.png
+  backgroundhovered = config/fancymenu/assets/title/menu_multiplayer_hover.png
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  stay_on_screen = false
+  sticky_anchor = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  label = 
+  anchor_point = top-right
+  x = -60
+  y = 181
+  width = 55
+  height = 19
+  backgroundnormal = config/fancymenu/assets/title/menu_mods_normal.png
+  backgroundhovered = config/fancymenu/assets/title/menu_mods_hover.png
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  stay_on_screen = false
+  sticky_anchor = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  label = 
+  anchor_point = top-right
+  x = -60
+  y = 204
+  width = 82
+  height = 19
+  backgroundnormal = config/fancymenu/assets/title/menu_options_normal.png
+  backgroundhovered = config/fancymenu/assets/title/menu_options_hover.png
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  stay_on_screen = false
+  sticky_anchor = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  label = 
+  anchor_point = top-right
+  x = -60
+  y = 238
+  width = 35
+  height = 17
+  backgroundnormal = config/fancymenu/assets/title/menu_quit_normal.png
+  backgroundhovered = config/fancymenu/assets/title/menu_quit_hover.png
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2.0
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  stay_on_screen = false
+  sticky_anchor = true
+}

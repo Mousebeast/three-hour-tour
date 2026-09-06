@@ -1,0 +1,63 @@
+{
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "50 + level * 25"
+    }
+  },
+  "level_limit": 20,
+  "reset_on_death": false,
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "max_health": {
+            "operations": [
+              {
+                "type": "get_killed_living_entity"
+              },
+              {
+                "type": "get_max_health"
+              }
+            ]
+          }
+        },
+        "experience": "8 * (max_health / 20)"
+      }
+    },
+    {
+      "type": "puffish_skills:increase_stat",
+      "data": {
+        "variables": {
+          "matched": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.damage_dealt"
+                }
+              }
+            ]
+          },
+          "amount": {
+            "operations": [
+              {
+                "type": "get_increase_amount"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "matched",
+            "expression": "amount * 1.0"
+          }
+        ]
+      }
+    }
+  ]
+}

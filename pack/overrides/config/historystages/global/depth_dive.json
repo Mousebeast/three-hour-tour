@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Dive Rig",
+  "items": [
+    "create:copper_backtank",
+    "create:copper_diving_boots",
+    "create:copper_diving_helmet"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Jewelcrafting",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "irons_jewelry"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

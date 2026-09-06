@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "threehourtour:core_trawl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:pack_trawl"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

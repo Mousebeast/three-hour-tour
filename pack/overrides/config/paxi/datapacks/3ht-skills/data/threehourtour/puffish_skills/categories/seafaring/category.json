@@ -1,0 +1,20 @@
+{
+  "title": "Seafaring",
+  "description": "Working a deck. Reaching the far machine, shoving a hull, getting about a cluttered ship.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "threehourtour:treated_planks"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/deepslate.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "erase_on_death": false,
+  "starting_points": 0
+}

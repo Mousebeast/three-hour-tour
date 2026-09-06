@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    "B": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "C": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "pattern": [
+    "ABC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_abyssal"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "tag": "minecraft:planks" },
+    { "type": "neoforge:single", "fluid": "createdieselgenerators:plant_oil", "amount": 32 }
+  ],
+  "results": [ { "id": "threehourtour:treated_planks", "count": 1 } ]
+}

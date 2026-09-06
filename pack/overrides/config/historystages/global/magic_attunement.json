@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Attunement",
+  "items": [
+    "irons_spellbooks:arcane_essence",
+    "irons_spellbooks:common_ink",
+    "irons_spellbooks:copper_spell_book"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

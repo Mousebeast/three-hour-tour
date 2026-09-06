@@ -1,0 +1,22 @@
+# Partial on purpose. Distant Horizons fills every key it does not find with
+# its own default and writes the complete file back on first launch, the same
+# way FancyMenu's options.txt and fml.toml do. Two decisions live here, not a
+# snapshot of six hundred settings we have no opinion about.
+#
+# Note that DH rewrites this file from its own spec, which strips these
+# comments -- so the reason cannot live beside the value once a client has run.
+# It lives in docs/client-config.md, and there is a test.
+
+[common.logging.warning]
+	# Chat warnings about the garbage collector, off.
+	#
+	# Both fire on ordinary, healthy setups: the first whenever explicit GC is
+	# disabled (which is normal and usually correct), the second whenever DH
+	# dislikes the collector the launcher chose. Neither is actionable by the
+	# player being told, and a survival pack that greets someone with a JVM
+	# tuning complaint has made its first impression about the JVM.
+	#
+	# The matching log* keys are deliberately left alone: the warning is worth
+	# having when something is actually being diagnosed, just not in chat.
+	showExplicitGcDisabledWarning = false
+	showGarbageCollectorWarning = false

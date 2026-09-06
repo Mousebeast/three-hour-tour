@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "threehourtour:block/treated_planks",
+    "top": "threehourtour:block/treated_planks",
+    "side": "threehourtour:block/treated_planks"
+  }
+}

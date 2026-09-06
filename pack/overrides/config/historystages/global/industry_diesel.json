@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Diesel Generation",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "createdieselgenerators"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

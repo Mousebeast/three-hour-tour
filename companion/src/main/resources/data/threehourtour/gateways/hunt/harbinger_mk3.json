@@ -1,0 +1,248 @@
+{
+  "type": "gateways:normal",
+  "size": "large",
+  "color": "#8AB4F8",
+  "waves": [
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 5,
+          "entity": "cataclysm:the_watcher"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_watcher",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 5,
+          "entity": "cataclysm:the_prowler"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_prowler",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 6,
+          "entity": "minecraft:wither_skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 6,
+          "entity": "minecraft:zombified_piglin"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:zombified_piglin",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 7,
+          "entity": "cataclysm:the_watcher"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_watcher",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 7,
+          "entity": "cataclysm:the_prowler"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:the_prowler",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "max_wave_time": 700,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 8,
+          "entity": "minecraft:wither_skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:wither_skeleton",
+          "rolls": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_total",
+          "value": 0.35
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 24
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

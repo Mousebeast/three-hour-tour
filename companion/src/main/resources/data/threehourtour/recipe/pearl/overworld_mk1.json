@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "threehourtour_pearls",
+  "pattern": [
+    "KSK",
+    "PSP",
+    "KSK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "threehourtour:hunt/overworld_mk1"
+}

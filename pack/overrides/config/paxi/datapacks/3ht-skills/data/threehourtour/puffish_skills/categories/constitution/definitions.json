@@ -1,0 +1,317 @@
+{
+  "hardy_1": {
+    "title": "Hardy 1",
+    "description": "One more heart a rank.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hardy_2": {
+    "title": "Hardy 2",
+    "description": "One more heart a rank.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hardy_3": {
+    "title": "Hardy 3",
+    "description": "One more heart a rank.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hardy_4": {
+    "title": "Hardy 4",
+    "description": "One more heart a rank.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "mending_1": {
+    "title": "Mending 1",
+    "description": "Everything that heals you heals more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "mending_2": {
+    "title": "Mending 2",
+    "description": "Everything that heals you heals more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "mending_3": {
+    "title": "Mending 3",
+    "description": "Everything that heals you heals more.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "smothering_1": {
+    "title": "Smothering 1",
+    "description": "Burn for less time when you catch.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.burning_time",
+          "value": -0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "smothering_2": {
+    "title": "Smothering 2",
+    "description": "Burn for less time when you catch.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.burning_time",
+          "value": -0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "smothering_3": {
+    "title": "Smothering 3",
+    "description": "Burn for less time when you catch.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.burning_time",
+          "value": -0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "landing_1": {
+    "title": "Landing 1",
+    "description": "Fall a block further before it costs you.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "landing_2": {
+    "title": "Landing 2",
+    "description": "Fall a block further before it costs you.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "landing_3": {
+    "title": "Landing 3",
+    "description": "Fall a block further before it costs you.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "planted_1": {
+    "title": "Planted 1",
+    "description": "Harder to shove off your own deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "planted_2": {
+    "title": "Planted 2",
+    "description": "Harder to shove off your own deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

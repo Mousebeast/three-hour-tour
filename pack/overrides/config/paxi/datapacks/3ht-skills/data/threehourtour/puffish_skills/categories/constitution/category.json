@@ -1,0 +1,20 @@
+{
+  "title": "Constitution",
+  "description": "Staying alive out here. Drowning, burning, falling and being hit.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/deepslate.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "erase_on_death": false,
+  "starting_points": 0
+}

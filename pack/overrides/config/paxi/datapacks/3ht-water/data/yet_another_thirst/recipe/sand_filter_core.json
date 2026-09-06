@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": { "tag": "c:sands" },
+    "G": { "tag": "c:gravels" },
+    "F": { "item": "yet_another_thirst:fabric_filter_core" }
+  },
+  "pattern": [ "SGS", "GFG", "SGS" ],
+  "result": { "id": "yet_another_thirst:sand_filter_core", "count": 1 }
+}

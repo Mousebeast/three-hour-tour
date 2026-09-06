@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Deep Power Grid",
+  "items": [
+    "create:steam_engine",
+    "create_new_age:advanced_motor",
+    "create_new_age:basic_energiser"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

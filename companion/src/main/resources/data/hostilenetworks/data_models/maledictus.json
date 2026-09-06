@@ -1,0 +1,27 @@
+{
+  "entity": "cataclysm:draugr",
+  "variants": [
+    "cataclysm:royal_draugr",
+    "cataclysm:elite_draugr",
+    "cataclysm:aptrgangr"
+  ],
+  "name_color": "#7fa8a0",
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.maledictus",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:bone",
+      "count": 24
+    },
+    {
+      "id": "minecraft:rotten_flesh",
+      "count": 16
+    }
+  ]
+}

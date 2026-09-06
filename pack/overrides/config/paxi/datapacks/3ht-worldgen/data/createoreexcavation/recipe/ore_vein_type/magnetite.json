@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMin": 8.0,
+  "amountMultiplierMax": 24.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "create_new_age:magnetite_block"
+  },
+  "name": "{\"text\": \"Magnetite\"}",
+  "placement": {
+    "salt": 797562949,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

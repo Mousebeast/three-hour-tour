@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Screw Propulsion",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "createpropulsion"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

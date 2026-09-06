@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "threehourtour_pearls",
+  "pattern": [
+    "AIA",
+    "PSP",
+    "KIK"
+  ],
+  "key": {
+    "A": {
+      "item": "threehourtour:ash"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "threehourtour:hunt/overworld_mk3"
+}

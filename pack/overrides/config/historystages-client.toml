@@ -1,0 +1,12 @@
+[visuals]
+	showTooltips = true
+	showStageName = true
+	showLockIcons = true
+
+[jade]
+	showInfo = true
+	showStageName = true
+
+[jei_hiding]
+	hideLockedItemsInJei = false
+	hideLockedRecipesInJei = false

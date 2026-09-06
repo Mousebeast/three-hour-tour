@@ -1,0 +1,78 @@
+{
+  "type": "gateways:normal",
+  "size": "small",
+  "color": "#8AB4F8",
+  "waves": [
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "minecraft:blaze"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "minecraft:magma_cube"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:magma_cube",
+          "rolls": 2
+        }
+      ]
+    },
+    {
+      "max_wave_time": 900,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "cataclysm:ignited_revenant"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "cataclysm:ignited_revenant",
+          "rolls": 2
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "id": "threehourtour:ash",
+        "count": 4
+      }
+    }
+  ],
+  "failures": [
+    {
+      "type": "gateways:explosion",
+      "strength": 2,
+      "fire": false,
+      "block_damage": false
+    }
+  ]
+}

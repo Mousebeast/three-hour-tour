@@ -1,0 +1,20 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:bundle_foundry"
+    },
+    {
+      "item": "threehourtour:bundle_foundry"
+    },
+    {
+      "item": "threehourtour:bundle_foundry"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:core_foundry"
+    }
+  ],
+  "type": "create:mixing"
+}

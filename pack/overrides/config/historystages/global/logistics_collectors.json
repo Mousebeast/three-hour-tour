@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Item Collectors",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "itemcollectors"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

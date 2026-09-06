@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Long-Line Transmission",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "createtransmission"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

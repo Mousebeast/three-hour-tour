@@ -1,0 +1,35 @@
+{
+  "ingredients": [
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    },
+    {
+      "item": "threehourtour:bundle_husbandry"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "threehourtour:core_husbandry"
+    }
+  ],
+  "type": "create:compacting"
+}

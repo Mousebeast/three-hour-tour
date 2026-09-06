@@ -1,0 +1,27 @@
+{
+  "entity": "cataclysm:koboleton",
+  "variants": [
+    "cataclysm:kobolediator",
+    "cataclysm:wadjet",
+    "cataclysm:modern_remnant"
+  ],
+  "name_color": "#e0c060",
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "threehourtour.trivia.ancient_remnant",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:sand",
+      "count": 32
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 16
+    }
+  ]
+}

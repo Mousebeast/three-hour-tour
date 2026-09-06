@@ -1,0 +1,82 @@
+{
+  "hardy_1": {
+    "definition": "hardy_1",
+    "x": 26,
+    "y": 0,
+    "root": true
+  },
+  "hardy_2": {
+    "definition": "hardy_2",
+    "x": 52,
+    "y": 0
+  },
+  "hardy_3": {
+    "definition": "hardy_3",
+    "x": 78,
+    "y": 0
+  },
+  "hardy_4": {
+    "definition": "hardy_4",
+    "x": 104,
+    "y": 0
+  },
+  "mending_1": {
+    "definition": "mending_1",
+    "x": 26,
+    "y": 26,
+    "root": true
+  },
+  "mending_2": {
+    "definition": "mending_2",
+    "x": 52,
+    "y": 26
+  },
+  "mending_3": {
+    "definition": "mending_3",
+    "x": 78,
+    "y": 26
+  },
+  "smothering_1": {
+    "definition": "smothering_1",
+    "x": 26,
+    "y": 52,
+    "root": true
+  },
+  "smothering_2": {
+    "definition": "smothering_2",
+    "x": 52,
+    "y": 52
+  },
+  "smothering_3": {
+    "definition": "smothering_3",
+    "x": 78,
+    "y": 52
+  },
+  "landing_1": {
+    "definition": "landing_1",
+    "x": 26,
+    "y": 78,
+    "root": true
+  },
+  "landing_2": {
+    "definition": "landing_2",
+    "x": 52,
+    "y": 78
+  },
+  "landing_3": {
+    "definition": "landing_3",
+    "x": 78,
+    "y": 78
+  },
+  "planted_1": {
+    "definition": "planted_1",
+    "x": 26,
+    "y": 104,
+    "root": true
+  },
+  "planted_2": {
+    "definition": "planted_2",
+    "x": 52,
+    "y": 104
+  }
+}

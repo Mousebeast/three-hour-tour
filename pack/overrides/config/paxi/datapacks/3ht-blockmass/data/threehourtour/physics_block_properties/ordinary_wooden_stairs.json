@@ -1,0 +1,12 @@
+{
+  "priority": 2000,
+  "selector": "#minecraft:wooden_stairs",
+  "properties": {
+    "sable:mass": 1.0
+  },
+  "overrides": {
+    "type=double": {
+      "sable:mass": 2.0
+    }
+  }
+}

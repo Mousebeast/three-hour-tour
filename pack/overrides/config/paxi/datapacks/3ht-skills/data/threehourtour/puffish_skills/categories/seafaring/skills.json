@@ -1,0 +1,93 @@
+{
+  "shoulder_1": {
+    "definition": "shoulder_1",
+    "x": 26,
+    "y": 0,
+    "root": true
+  },
+  "shoulder_2": {
+    "definition": "shoulder_2",
+    "x": 52,
+    "y": 0
+  },
+  "shoulder_3": {
+    "definition": "shoulder_3",
+    "x": 78,
+    "y": 0
+  },
+  "recovery_1": {
+    "definition": "recovery_1",
+    "x": 26,
+    "y": 26,
+    "root": true
+  },
+  "recovery_2": {
+    "definition": "recovery_2",
+    "x": 52,
+    "y": 26
+  },
+  "recovery_3": {
+    "definition": "recovery_3",
+    "x": 78,
+    "y": 26
+  },
+  "reach_1": {
+    "definition": "reach_1",
+    "x": 26,
+    "y": 52,
+    "root": true
+  },
+  "reach_2": {
+    "definition": "reach_2",
+    "x": 52,
+    "y": 52
+  },
+  "reach_3": {
+    "definition": "reach_3",
+    "x": 78,
+    "y": 52
+  },
+  "grasp_1": {
+    "definition": "grasp_1",
+    "x": 26,
+    "y": 78,
+    "root": true
+  },
+  "grasp_2": {
+    "definition": "grasp_2",
+    "x": 52,
+    "y": 78
+  },
+  "grasp_3": {
+    "definition": "grasp_3",
+    "x": 78,
+    "y": 78
+  },
+  "footing_1": {
+    "definition": "footing_1",
+    "x": 26,
+    "y": 104,
+    "root": true
+  },
+  "footing_2": {
+    "definition": "footing_2",
+    "x": 52,
+    "y": 104
+  },
+  "pace_1": {
+    "definition": "pace_1",
+    "x": 26,
+    "y": 130,
+    "root": true
+  },
+  "pace_2": {
+    "definition": "pace_2",
+    "x": 52,
+    "y": 130
+  },
+  "pace_3": {
+    "definition": "pace_3",
+    "x": 78,
+    "y": 130
+  }
+}

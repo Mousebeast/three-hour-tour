@@ -1,0 +1,359 @@
+{
+  "shoulder_1": {
+    "title": "Shoulder 1",
+    "description": "Shove your own hull harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_strength",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "shoulder_2": {
+    "title": "Shoulder 2",
+    "description": "Shove your own hull harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_strength",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "shoulder_3": {
+    "title": "Shoulder 3",
+    "description": "Shove your own hull harder.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_strength",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "recovery_1": {
+    "title": "Recovery 1",
+    "description": "Less waiting between shoves.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_cooldown",
+          "value": -0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "recovery_2": {
+    "title": "Recovery 2",
+    "description": "Less waiting between shoves.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_cooldown",
+          "value": -0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "recovery_3": {
+    "title": "Recovery 3",
+    "description": "Less waiting between shoves.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "sable:player.sub_level_punch_cooldown",
+          "value": -0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "reach_1": {
+    "title": "Long Arms 1",
+    "description": "Reach a block further across the deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reach_2": {
+    "title": "Long Arms 2",
+    "description": "Reach a block further across the deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reach_3": {
+    "title": "Long Arms 3",
+    "description": "Reach a block further across the deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "grasp_1": {
+    "title": "Boarding Reach 1",
+    "description": "Reach a mob further, which matters most over a rail.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "grasp_2": {
+    "title": "Boarding Reach 2",
+    "description": "Reach a mob further, which matters most over a rail.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "grasp_3": {
+    "title": "Boarding Reach 3",
+    "description": "Reach a mob further, which matters most over a rail.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "footing_1": {
+    "title": "Sure Footing 1",
+    "description": "Get onto things without a staircase.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "footing_2": {
+    "title": "Sure Footing 2",
+    "description": "Get onto things without a staircase.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "pace_1": {
+    "title": "Deck Pace 1",
+    "description": "Move about the ship faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "pace_2": {
+    "title": "Deck Pace 2",
+    "description": "Move about the ship faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "pace_3": {
+    "title": "Deck Pace 3",
+    "description": "Move about the ship faster.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "threehourtour:treated_planks"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  }
+}

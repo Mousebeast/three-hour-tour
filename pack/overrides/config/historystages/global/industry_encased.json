@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Encased Machinery",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "bits_n_bobs",
+    "create_sa",
+    "createcasing"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "dimensions": [
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "display_name": "The Frontier",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

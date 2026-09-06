@@ -1,0 +1,29 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:emerald_block"
+    },
+    "B": {
+      "item": "minecraft:dried_kelp"
+    },
+    "C": {
+      "item": "minecraft:seagrass"
+    },
+    "D": {
+      "item": "minecraft:cooked_cod"
+    },
+    "E": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DE "
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_trawl"
+  },
+  "type": "minecraft:crafting_shaped"
+}

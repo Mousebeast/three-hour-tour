@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "Personal Jetpacks",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "ironjetpacks"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

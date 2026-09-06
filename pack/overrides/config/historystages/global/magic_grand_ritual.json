@@ -1,0 +1,20 @@
+{
+  "dimensions": [],
+  "display_name": "The Grand Ritual",
+  "items": [
+    "irons_spellbooks:blood_staff",
+    "irons_spellbooks:dragonskin_spell_book",
+    "irons_spellbooks:graybeard_staff",
+    "irons_spellbooks:ice_staff",
+    "irons_spellbooks:necronomicon_spell_book",
+    "irons_spellbooks:netherite_spell_book",
+    "irons_spellbooks:pyrium_staff"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

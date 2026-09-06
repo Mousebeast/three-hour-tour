@@ -1,0 +1,15 @@
+{
+  "dimensions": [],
+  "display_name": "Conduit Cage",
+  "items": [
+    "create_aquatic_ambitions:mechanical_conduit",
+    "create_aquatic_ambitions:prismarine_alloy"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

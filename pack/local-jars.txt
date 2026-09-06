@@ -1,0 +1,13 @@
+# Jars that live in the server's mods/ directory on purpose but are NOT pinned
+# in pack/manifest.json, because they are not CurseForge files.
+#
+# One glob per line, matched against the bare filename. '#' starts a comment
+# only at the start of a line.
+#
+# tools/audit-mods.sh treats anything matching these as ATTRIBUTED, so it is
+# never reported as unexplained and never removed by --prune. Keep this list
+# short: an entry here is an assertion that you know why the jar is there.
+
+# The companion mod, built from companion/ by gradle and copied in by hand.
+# See CLAUDE.md "Deploy Procedure".
+threehourtour-*.jar

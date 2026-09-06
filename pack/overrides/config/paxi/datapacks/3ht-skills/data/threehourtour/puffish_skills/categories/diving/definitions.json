@@ -1,0 +1,317 @@
+{
+  "lungs_1": {
+    "title": "Lungs 1",
+    "description": "Air lasts longer. Each rank is a level of Respiration.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lungs_2": {
+    "title": "Lungs 2",
+    "description": "Air lasts longer. Each rank is a level of Respiration.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lungs_3": {
+    "title": "Lungs 3",
+    "description": "Air lasts longer. Each rank is a level of Respiration.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 1.0,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "kick_1": {
+    "title": "Kick 1",
+    "description": "Water stops dragging on you. Four ranks is full Depth Strider.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "kick_2": {
+    "title": "Kick 2",
+    "description": "Water stops dragging on you. Four ranks is full Depth Strider.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "kick_3": {
+    "title": "Kick 3",
+    "description": "Water stops dragging on you. Four ranks is full Depth Strider.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "kick_4": {
+    "title": "Kick 4",
+    "description": "Water stops dragging on you. Four ranks is full Depth Strider.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "quarrying_1": {
+    "title": "Wet Quarrying 1",
+    "description": "Mine underwater at the speed you would on deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "quarrying_2": {
+    "title": "Wet Quarrying 2",
+    "description": "Mine underwater at the speed you would on deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "quarrying_3": {
+    "title": "Wet Quarrying 3",
+    "description": "Mine underwater at the speed you would on deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "quarrying_4": {
+    "title": "Wet Quarrying 4",
+    "description": "Mine underwater at the speed you would on deck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "stroke_1": {
+    "title": "Stroke 1",
+    "description": "Swim faster. Nothing else in the game touches this.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "stroke_2": {
+    "title": "Stroke 2",
+    "description": "Swim faster. Nothing else in the game touches this.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "stroke_3": {
+    "title": "Stroke 3",
+    "description": "Swim faster. Nothing else in the game touches this.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "stroke_4": {
+    "title": "Stroke 4",
+    "description": "Swim faster. Nothing else in the game touches this.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  }
+}

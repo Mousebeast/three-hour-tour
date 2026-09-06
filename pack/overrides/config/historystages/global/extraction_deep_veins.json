@@ -1,0 +1,16 @@
+{
+  "dimensions": [],
+  "display_name": "Deep Veins",
+  "items": [
+    "createoreexcavation:raw_diamond",
+    "createoreexcavation:raw_emerald",
+    "createoreexcavation:raw_redstone"
+  ],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}

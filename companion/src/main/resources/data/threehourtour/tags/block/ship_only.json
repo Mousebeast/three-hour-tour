@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#botanypots:botany_pots", "required": false },
+    { "id": "bonsaitrees4:bonsaipot", "required": false },
+    { "id": "bonsaitrees4:bonsaipot_small", "required": false },
+    "threehourtour:sea_scoop"
+  ]
+}

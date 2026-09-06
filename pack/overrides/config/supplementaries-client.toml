@@ -1,0 +1,16 @@
+#Partial on purpose. Moonlight fills every key it does not find with the mod's
+#own default and writes the complete file back on first launch, the same way
+#FancyMenu's options.txt and fml.toml work. One decision lives here, not a
+#snapshot of a hundred settings we have no opinion about.
+
+[general]
+	#Enable Quark style config button on main menu
+	#
+	#Off: this pack draws its own title screen, and a mod's config button on
+	#it is a second, unstyled voice in a composition that has exactly one.
+	#Turned off here rather than hidden in the FancyMenu layout because
+	#FancyMenu has no name for this button -- it is not in the title screen's
+	#identification table, so the editor falls back to identifying it by its
+	#x and y, which is only correct at the resolution and GUI scale it was
+	#captured at. Switching it off at the source works everywhere.
+	configs_button = false

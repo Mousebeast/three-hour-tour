@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:enchanted_book"
+    },
+    "B": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "C": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "D": {
+      "item": "create_enchantment_industry:experience_bucket"
+    },
+    "E": {
+      "item": "threehourtour:ash"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "CDE",
+    "E  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "threehourtour:bundle_arcane"
+  },
+  "type": "minecraft:crafting_shaped"
+}

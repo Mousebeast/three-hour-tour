@@ -1,0 +1,14 @@
+{
+  "dimensions": [],
+  "display_name": "The Bestiary",
+  "items": [],
+  "lose_on_death": false,
+  "mod_exceptions": [],
+  "mods": [
+    "cataclysm"
+  ],
+  "recipes": [],
+  "research_time": 0,
+  "structures": [],
+  "tags": []
+}
