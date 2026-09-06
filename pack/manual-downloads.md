@@ -13,20 +13,20 @@ High Seas. The pack cannot boot without them.
 
 | Mod | Project | File | Page |
 |---|---|---|---|
-| Animal Husbandry | 1550564 | 8322440 | https://www.curseforge.com/minecraft/mc-mods/animal-husbandry |
-| Create Aeronautics | 676721 | 8240058 | https://www.curseforge.com/minecraft/mc-mods/create-aeronautics |
-| Create: Better High Seas | 1629286 | 8616061 | https://www.curseforge.com/minecraft/mc-mods/create-better-high-seas |
+| Animal Husbandry | 1550564 | 8798239 | https://www.curseforge.com/minecraft/mc-mods/animal-husbandry |
+| Create Aeronautics | 676721 | 8763471 | https://www.curseforge.com/minecraft/mc-mods/create-aeronautics |
+| Create: Better High Seas | 1629286 | 8741137 | https://www.curseforge.com/minecraft/mc-mods/create-better-high-seas |
 | Create: Design n' Decor | 923238 | 8156977 | https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor |
 | Create: Sophisticated Backpacks Compat | 1320115 | 6844021 | https://www.curseforge.com/minecraft/mc-mods/create-sophisticated-backpacks-compat |
 | Create: Wizardry | 949995 | 8304856 | https://www.curseforge.com/minecraft/mc-mods/create-wizardry |
 | Entity Culling Fabric/Forge | 448233 | 8287097 | https://www.curseforge.com/minecraft/mc-mods/entityculling |
-| I'm Fast | 1111501 | 5991453 | https://www.curseforge.com/minecraft/mc-mods/im-fast |
+| I'm Fast | 1111501 | 8747159 | https://www.curseforge.com/minecraft/mc-mods/im-fast |
 | Jump Over Fences | 423421 | 6897510 | https://www.curseforge.com/minecraft/mc-mods/jump-over-fences-forge |
 | Library Ferret - NeoForge | 522351 | 6118136 | https://www.curseforge.com/minecraft/mc-mods/library-ferret-neoforge |
 | More Overlays Updated | 391382 | 6981252 | https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated |
 | Yet Another Thirst | 1563280 | 8563284 | https://www.curseforge.com/minecraft/mc-mods/yet-another-thirst |
 
-**Count: 12 of 257 manifest entries.**
+**Count: 12 of 259 manifest entries.**
 
 ## The easy route: import the client pack
 
