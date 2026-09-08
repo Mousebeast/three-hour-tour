@@ -36,7 +36,7 @@
         "experience": [
           {
             "condition": "matched",
-            "expression": "amount * 0.02"
+            "expression": "amount * 0.01"
           }
         ]
       }
@@ -69,7 +69,7 @@
         "experience": [
           {
             "condition": "matched",
-            "expression": "amount * 0.01"
+            "expression": "amount * 0.005"
           }
         ]
       }

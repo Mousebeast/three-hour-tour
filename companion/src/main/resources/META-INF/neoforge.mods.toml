@@ -1,11 +1,11 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "All Rights Reserved"
+license = "MIT"
 
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
-displayName = "Three Hour Tour"
+displayName = "Three Hour Tour Companion"
 
 description = "Companion mod for Three Hour Tour, the 3ht modpack. Provides the on-ship predicate and ship systems."
 

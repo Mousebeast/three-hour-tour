@@ -10,4 +10,9 @@
 
 # The companion mod, built from companion/ by gradle and copied in by hand.
 # See CLAUDE.md "Deploy Procedure".
+#
+# It IS pinned in the manifest as of pack 1.2.0 -- players fetch it from
+# CurseForge -- but it is in server-excludes.txt so download-mods.sh never
+# stages it here, and the filename the server runs is whatever gradle just
+# built, which is routinely ahead of the pinned fileID. So the glob stays.
 threehourtour-*.jar

@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "3ht",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "",
   "overrides": "overrides",
   "files": [
@@ -1567,6 +1567,12 @@
     {
       "projectID": 1637623,
       "fileID": 8576077,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1684787,
+      "fileID": 8835371,
       "required": true,
       "isLocked": false
     }

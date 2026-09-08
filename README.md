@@ -46,9 +46,10 @@ You also get a dog.
 **[Three Hour Tour on CurseForge](https://www.curseforge.com/minecraft/modpacks/three-hour-tour)** — install it from the CurseForge app
 and everything below is handled for you.
 
-Failing that, import the release zip with the CurseForge or Prism launcher. It resolves the
-mod list, and the pack's own companion mod rides along inside it — there is
-nothing to place by hand.
+Failing that, take the zip from
+[the latest release](https://github.com/Mousebeast/three-hour-tour/releases/latest)
+and import it with the CurseForge or Prism launcher. It resolves the mod list
+on import — there is nothing to place by hand.
 
 Allow it around **9 GB** of RAM.
 
@@ -59,27 +60,34 @@ Allow it around **9 GB** of RAM.
 | `pack/manifest.json` | the mod list, pinned by project and file id |
 | `pack/overrides/` | every config, datapack, script and asset the pack ships |
 | `companion/` | the pack's own NeoForge mod, with its tests |
-| `tools/build-clientpack.sh` | assembles the importable client pack |
 
 Mod jars are never committed here. The manifest names them and the launcher
 fetches them, which is both a licensing matter and the only way the twelve mods
 that forbid third-party API downloads can be installed at all.
 
-## Building the client pack
+## The companion mod
 
-    tools/build-clientpack.sh
+`companion/` is the pack's own NeoForge mod — the ship core, the on-ship
+predicate and the research gate that decides what you are allowed to place. It
+is published as its own project, at
+[three-hour-tour-companion](https://github.com/Mousebeast/three-hour-tour-companion),
+so the pack can name it the way it names every other mod rather than smuggling
+a jar into the overrides. The copy here is the source it is generated from.
 
-It rebuilds the companion mod, stages the overrides, writes the mod list page
-and produces `pack/build/3ht-<version>.zip`. It refuses to build a numbered
-version from a dirty tree, because a release whose version string does not name
-a commit cannot be reproduced.
+It needs **Sable** and **GuideME** at runtime, and uses **KubeJS** and **FTB
+Teams** when they are present. In the pack all four are already there; if you
+install the mod on its own, the two required ones have to come with it.
 
-The mod list page is fetched from the CurseForge API, so that step wants a key
-at `~/.config/curseforge/api.key`.
+Building it needs a few jars the pack depends on but no Maven repository
+serves. `companion/gradle.properties` says which ones and where it expects to
+find them; point `staged_mods_dir` at any directory holding that set.
 
-Building the companion mod needs a few jars the pack depends on but no Maven
-repository serves. `companion/gradle.properties` says which ones and where it
-expects to find them; point `staged_mods_dir` at any directory holding that set.
+## Building the pack
+
+The pack is assembled by tooling that is not published here — it is written
+against one server's layout and would only mislead anyone else. The artifact it
+produces is, though: every release carries the importable zip, built from the
+commit it is tagged against.
 
 ## Licence
 

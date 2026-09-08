@@ -6,6 +6,14 @@
 # /srv/minecraft/3ht/mods.
 #
 # Format: <fileName as staged by tools/download-mods.sh> | <reason>
+#
+# Two reasons appear below. Most entries are genuinely client-only. The
+# companion mod is the other kind: it belongs on the server, but the server
+# gets the jar we just built rather than the one CurseForge is serving, because
+# the whole development loop is iterating on it faster than a review queue
+# moves. Excluding it is what keeps download-mods.sh from staging a second jar
+# beside the hand-copied one -- two jars declaring one mod id stop the server
+# at load.
 
 sodium-neoforge-0.8.13+mc1.21.1.jar | Client-only rendering mod. Crashes the dedicated server outright: NeoForge's early-window bootstrap (ImmediateWindowHandler) invokes every ImmediateWindowProvider SPI found in mods/ unconditionally, before client/server side-filtering happens. Sodium's PreLaunchChecks then does Class.forName("org.lwjgl.Version"), which isn't on the dedicated server classpath (no LWJGL/GLFW there), producing NoClassDefFoundError and an immediate exit before any mod-loading log lines. First hit at Task 5 boot attempt 1. See docs/mod-audit.md.
 iris-neoforge-1.8.14-beta.1+mc1.21.1.jar | Client-only shader mod. Its own neoforge.mods.toml declares side="CLIENT" for its minecraft and embeddium dependencies, and it provides no server-side function (shader rendering only). Does not crash the server (no ImmediateWindowProvider SPI, unlike Sodium) — excluded on hygiene/policy grounds, not a boot failure.
@@ -13,3 +21,5 @@ iris-neoforge-1.8.14-beta.1+mc1.21.1.jar | Client-only shader mod. Its own neofo
 Better-Leaves-9.5.zip | Client resource pack, not a mod. Pinned in the manifest so the CurseForge client installs it for players; a .zip in a dedicated server's mods/ is never loaded and only obscures what is actually installed. Added to this list 2026-08-21 after tools/download-mods.sh was found staging it.
 ComplementaryUnbound_r5.9.zip | Client shader pack (requires Iris, itself excluded above). Same reasoning as Better-Leaves — no server-side function.
 dynamiclights-v1.9.3-mc1.17-26.2.9-datapack.zip | Client-side dynamic lighting datapack. Ships to players via the manifest. If a server-side datapack is ever wanted it belongs under config/paxi/datapacks/ (see pack/README.md), never mods/.
+
+threehourtour-1.0.1.jar | Our own companion mod, pinned in the manifest since 1.2.0 so players get it from CurseForge like any other dependency. The server does NOT take it from there: tools/build-clientpack.sh rebuilds the jar and CLAUDE.md's deploy procedure hand-copies it into mods/, so a downloaded copy would either overwrite the build under test or, once mod_version moves ahead of the pinned fileID, sit beside it as a second jar declaring the same mod id. Keep this line pointed at whatever filename the manifest pins -- audit-mods.sh reports it as a STALE EXCLUSION when a mod_version bump moves the fileID on.

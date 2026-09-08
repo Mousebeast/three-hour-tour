@@ -30,17 +30,17 @@ secret rich patch of ocean. What changes your yield is what you have built.
 
 | Mesh | One item every | Total yields | Roughly | Costs |
 |---|---|---|---|---|
-| <ItemLink id="threehourtour:twine_mesh" /> | 10 seconds | 256 | 43 minutes | 8 string |
+| <ItemLink id="threehourtour:twine_mesh" /> | 10 seconds | 256 | 43 minutes | string and sticks |
 | <ItemLink id="threehourtour:chain_mesh" /> | 6 seconds | 1,024 | 102 minutes | about 10 iron |
 | <ItemLink id="threehourtour:prismarine_mesh" /> | 3 seconds | 3,072 | 154 minutes | 8 shards and a chain mesh |
 
 Every successful yield wears the mesh a little. When it finally breaks the scoop
 just stops, quietly, with no announcement of any kind.
 
-**The twine mesh pays for itself twice over in string.** However thoroughly you
-manage to lose everything you own, you can always sail your way back to a
-working scoop. Iron nuggets come off the twine tier too, and on day one that is
-the only metal there is.
+**The twine mesh pays for its own string back many times over.** However
+thoroughly you manage to lose everything you own, you can always sail your way
+back to a working scoop. Iron nuggets come off the twine tier too, and on day
+one that is the only metal there is.
 
 ## It needs somewhere to put things
 

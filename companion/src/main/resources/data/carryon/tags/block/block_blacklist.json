@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "threehourtour:ship_core",
-    "threehourtour:research_terminal"
+    "threehourtour:research_terminal",
+    {
+      "id": "doggytalents:dog_bed",
+      "required": false
+    }
   ]
 }
